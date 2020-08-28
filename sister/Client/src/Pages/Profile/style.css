@@ -1,0 +1,63 @@
+.ProfileName{
+    border-radius: 25px;
+    background-color:#EA85C7;
+    color: white;
+      text-align: center;
+  }
+  h2{
+    width: 250px;
+    border-radius: 25px;
+    background-color:#EA85C7;
+    color: white;
+  }
+  .ProfDiv{
+    padding-left: 17%;
+  }
+  .ProfileRow{
+    object-fit: cover;
+      object-position:  center;
+      background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+      width: 900px;
+      background-image: url(./Images/fondo.jpg);
+      border-radius: 45px;
+   
+  }
+  .ProfileCont1.container {
+    padding-left: 18%;
+    font-size: 14px;
+    margin-top: 30px;
+    display: inline-flex;
+  }
+  .ProfileImages.col {
+    display: inline-grid;
+    margin-right: 8%;
+  }
+  p.userProfI {
+    width: 335px;
+    padding-left: 3%;
+    margin-top: -14px;
+    font-size: 13px;
+    background-color: white;
+    border: 1px;
+    border-radius:25px;
+    margin-bottom: 40px ;
+    
+  }
+  .facePic{
+    border-color: #EA85C7;
+    border: 1px, solid;
+  }
+  .bodyPic{
+    border: 1px, solid;
+    border-color: #EA85C7;
+  }
+  img.bodyPic{
+    border-radius: 25px;
+    padding-left: 6%;
+  }
+  img.facePic.rounded {
+    border-radius: 25px;
+    padding-left: 9%;
+  }

@@ -1,0 +1,18 @@
+.navbar-light .navbar-nav .nav-link {
+    color: #B9B7BD;
+    font-size: 30px;
+    border: 1px, solid #B9B7BD;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #EA85C7;
+  }
+.divider{
+    width:20px;
+    height:auto;
+    display:inline-block;
+}
+.menubar{
+    margin-top: 20px;
+    margin-left: 23%;
+	display: inline-flex;
+}

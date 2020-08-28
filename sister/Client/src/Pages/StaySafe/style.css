@@ -1,0 +1,60 @@
+.textareaStay{
+    padding-left: 15%;
+}
+.containerStay {
+    border-color: #08104e;
+    width: 604px;
+    border-radius: 25px;
+    background-color: #f7d5eb;
+    padding-right: 23%;
+    border-style: dotted;
+    margin-top: 40px;
+    width: 604px;
+    border-radius: 25px;
+    background-color: #f7d5eb;
+    padding-right: 23%;
+}
+.pStay {
+    padding-left: 17%;
+   color:#08104e;
+    font-size: 16px;
+    width: 650px;
+}
+.Col{
+    padding-left: 17%;
+}
+.formC{
+    border-style: unset;
+    color: white;
+    border-radius: 25px;
+    width: 810px;
+    height: 50px;
+    background-color:#08104e;
+    margin-bottom: 40px;
+    border-color:  white;
+}
+.colSub{
+    padding-left: 43%;
+}
+.submitlBtn{
+    border-radius: 70px;
+    margin-bottom: 90px;
+    height: 50px;
+    width: 150px;
+    background-color: deeppink;
+    color: #ffffff;
+    border: 1px;
+    border-color: #EA85C7;
+    text-align: center;
+    text-decoration: none;
+    font-size: 31px;
+    margin: 4px 2px;
+}
+.colH{
+ padding-left: 40%;
+}
+h1{
+    font-family: 'Finger Paint', cursive;
+    color:#EA85C7;
+   }
+   

@@ -1,0 +1,34 @@
+.cRow{
+    border: 8px;
+    border-style: dotted;
+    border-color: #08104e;
+    border-radius: 25px;
+    width: 660px;
+    background-color: #F3B9DF;
+    margin-top: 40px;
+    display:inline-flex;
+    margin-bottom: 50px;
+}
+.containerRow{
+    width: 500px;
+    padding-left: 22%;
+}
+.facePic{
+    border-radius: 25px;
+    margin-left: 11px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    width: 200px;
+    height: 150px;
+    margin-right:-20px;
+}
+
+.womanClose{
+    font-size: 12px;
+}
+.cardFont{
+    font-family: 'Amatic SC', cursive;
+    font-size: 17px;
+    padding-left: 14%;
+    color: #08104e;
+}
