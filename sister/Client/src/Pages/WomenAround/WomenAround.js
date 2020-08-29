@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Container, Col, Image, Row} from 'react-bootstrap';
 import './style.css';
-import chica4 from "./Images/chica4.jpg"
+import chica4 from "./../../Components/Images/chica4.jpg"
 
 
 function WomanA(){

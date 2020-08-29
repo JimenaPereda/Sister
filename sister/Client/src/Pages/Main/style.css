@@ -1,0 +1,29 @@
+.indexWrap{
+    width: 1000px;
+    height: 900px;
+    background-image: url(./../../Components/Images/Freedom.jpg);
+    object-fit: cover;
+    object-position:  center;
+    background-repeat: no-repeat;
+      background-position: center;
+      background-size: 67%;
+}
+.indexCard{
+    margin-top: 202px;
+    padding-left: 40%;
+    display: inline-grid;
+}
+
+button.btn.btn-primary {
+    font-family: 'Finger Paint', cursive;
+    background-color: #EA85C7;
+    width: 200px;
+    margin-top: 15px;
+    margin-top: 1;
+    color: navy;
+    font-size: 23px;
+    border-radius: 25px;
+    border-style: dotted;
+    border-color: navy;
+    
+}

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import {Container, Col, Image, Row} from 'react-bootstrap';
 import './style.css';
-import body from "./Images/body.jpg"
-import face from "./Images/face.png"
+import body from "./../../Components/Images/body.jpg"
+import face from "./../../Components/Images/face.png"
 
 
 function ProfilE(){
