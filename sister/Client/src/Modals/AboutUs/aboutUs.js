@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Container, Button, Jumbotron } from 'react-bootstrap';
 import Modal from 'react-modal';
-import './App.css';
+import './style.css';
 
-function App() {
+function AboutUS() {
 	const [modalIsOpen, setModalIsOpen] = useState(false);
 	return (
 		<div className="AboutUS">
@@ -55,4 +55,4 @@ function App() {
 	);
 }
 
-export default App;
+export default AboutUS;

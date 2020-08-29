@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Form, Button, Col } from 'react-bootstrap';
 import Modal from 'react-modal';
-import './App.css';
+import './style.css';
 
-function App() {
+function SignIn() {
 	const [modalIsOpen, setModalIsOpen] = useState(false);
 	return (
 		<div className="SignIn">
@@ -160,4 +160,4 @@ function App() {
 	);
 }
 
-export default App;
+export default  SignIn;

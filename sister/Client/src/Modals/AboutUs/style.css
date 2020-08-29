@@ -21,7 +21,7 @@
   }
   
   .container {
-    background-image: url(./Components/Images/fondomod.jpg);
+    background-image: url(./../../Components/Images/fondomod.jpg);
     height: 550px;
     width: 593px;
     padding-left: 6%;
