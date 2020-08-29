@@ -1,19 +1,29 @@
 import React, { Component } from 'react';
-import Logo from "./Images/logo.jpg"
+import {useHistory}  from 'react-router-dom';
+import Logo from "./../Images/SISTER.png"
 import './style.css';
 
 
 
 function Header() {
   
-      return (
-        
+  const history = useHistory();
+  console.log(history)
+
+   return(
+
+    <div>
+      {history.location.pathname!== "/"&&(
+                
        <div className="homebod">
-            <img src={Logo} alt="" width="274" height="161"/>
-       </div>
+       <img src={Logo} alt="" width="274" height="161"/>
+    </div>
     
-      );
-   
+   )}
+     </div>
+  
+
+ )
   };
 
 

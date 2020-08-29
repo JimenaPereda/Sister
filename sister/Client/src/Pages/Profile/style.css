@@ -20,7 +20,7 @@
         background-position: center;
         background-size: 100%;
       width: 900px;
-      background-image: url(./Images/fondo.jpg);
+      background-image: url(./../../Components/Images/fondo.jpg);
       border-radius: 45px;
    
   }
