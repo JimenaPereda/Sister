@@ -29,7 +29,9 @@
 }
 .cardFont{
     font-family: 'Amatic SC', cursive;
-    font-size: 17px;
-    padding-left: 14%;
+    width: 600px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 16px;
+    padding-left: 5%;
     color: #08104e;
 }

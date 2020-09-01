@@ -4,25 +4,26 @@ import {useHistory}  from 'react-router-dom';
 import Modal from 'react-modal';
 import './style.css';
 
-function EmergencyModal() {
-    const [emergencyIsOpen,setEmergencyIsOpen] = useState(false)
+function DiscriminatedModal() {
+    const [discriminatedIsOpen,setDiscriminatedIsOpen] = useState(false)
     return (
-    <div className="SaveMe">
-        <Button className="SaveMeBtn" onClick={()=> setEmergencyIsOpen(true)}>Save Me</Button>
+    <div className="discriminated">
+        <Button className="discriminatedBtn" onClick={()=> setDiscriminatedIsOpen(true)}></Button>
 
-       <div className="EmergencyWrapper">
-        <Modal isOpen={emergencyIsOpen} onRequestClose ={()=> setEmergencyIsOpen(false)}>
-                   <h1 className="EmergencyTitleMod">EMERGENCY BUTTON <br/> HAS BEEN ACTIVATED!!!</h1>
+       <div className="discriminatedWrapper">
+        <Modal isOpen={discriminatedIsOpen} onRequestClose ={()=> setDiscriminatedIsOpen(false)}>
+                   <h1 className="discriminatedTitleMod">DISCRIMINATION BUTTON <br/> HAS BEEN ACTIVATED!!!</h1>
 
-                   <div className="etextEmergencyWrap">
-                     <p className="EmergencyEText">
-                     We just alert EVERYONE<br/>
-                     in our power please keep <br/>
-                     safe sister, we are in our way there!
+                   <div className="etextdiscriminatedWrap">
+                     <p className="discriminatedEText">
+                     We alert YOUR SISTERS, no woman deserves to be discriminated against!<br/>
+                      If a sister is nearby, she will go or reach you remember<br/>
+                      to file a human rights complaint if possible and<br/>
+                       never forget HOW BEAUTIFUL YOU ARE!
                      </p>
                   </div>
 
-               <Button className="closeBtn" onClick={()=> setEmergencyIsOpen(false)}>Close</Button>
+               <Button className="closeBtn" onClick={()=> setDiscriminatedIsOpen(false)}>Close</Button>
                 
 
       </Modal>
@@ -31,4 +32,4 @@ function EmergencyModal() {
   );
 }
 
-export default EmergencyModal;
+export default DiscriminatedModal;

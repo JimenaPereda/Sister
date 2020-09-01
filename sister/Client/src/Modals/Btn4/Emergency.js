@@ -4,25 +4,25 @@ import {useHistory}  from 'react-router-dom';
 import Modal from 'react-modal';
 import './style.css';
 
-function EmergencyModal() {
-    const [emergencyIsOpen,setEmergencyIsOpen] = useState(false)
+function NotWellModal() {
+    const [notWellIsOpen,setNotWellIsOpen] = useState(false)
     return (
-    <div className="SaveMe">
-        <Button className="SaveMeBtn" onClick={()=> setEmergencyIsOpen(true)}>Save Me</Button>
+    <div className="NotWell">
+        <Button className="NotWellBtn" onClick={()=> setNotWellIsOpen(true)}></Button>
 
-       <div className="EmergencyWrapper">
-        <Modal isOpen={emergencyIsOpen} onRequestClose ={()=> setEmergencyIsOpen(false)}>
-                   <h1 className="EmergencyTitleMod">EMERGENCY BUTTON <br/> HAS BEEN ACTIVATED!!!</h1>
+       <div className="NotWellWrapper">
+        <Modal isOpen={notWellIsOpen} onRequestClose ={()=> setNotWellIsOpen(false)}>
+                   <h1 className="NotWellTitleMod">NOT Well BUTTON <br/> HAS BEEN ACTIVATED!!!</h1>
 
-                   <div className="etextEmergencyWrap">
-                     <p className="EmergencyEText">
-                     We just alert EVERYONE<br/>
-                     in our power please keep <br/>
-                     safe sister, we are in our way there!
-                     </p>
+                   <div className="etextNotWellWrap">
+                     <p className="NotWellEText">
+                     We alert YOUR SISTERS, If a sister is nearby, she will go or reach  you,<br/>
+                      If you feel that this is a major emergency, press the SAVE ME button <br/>
+                      and an ambulance will be on the way
+                    </p>
                   </div>
 
-               <Button className="closeBtn" onClick={()=> setEmergencyIsOpen(false)}>Close</Button>
+               <Button className="closeBtn" onClick={()=> setNotWellIsOpen(false)}>Close</Button>
                 
 
       </Modal>
@@ -31,4 +31,4 @@ function EmergencyModal() {
   );
 }
 
-export default EmergencyModal;
+export default NotWellModal;

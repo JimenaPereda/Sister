@@ -6,19 +6,16 @@
     color: #EA85C7;
     font-family: 'Finger Paint', cursive;
   }
-  button.closeBtn.btn.btn-primary {
-    color: navy;
-    font-size: 23px;
-    border-radius: 25px;
-    border-style: dotted;
-    border-color: navy;
-    font-family: 'Finger Paint', cursive;
-    background-color: #EA85C7;
-    margin-top: 30px;
-    margin-right: 20px;
-    width: 91px;
-    margin-left: 238px;
-  }
+  button.RingMeBtn.btn.btn-primary {
+    background-image: url(./../../Modals/Images/5.jpg);
+    background-size: auto;
+    margin-top: 80px;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 150px;
+    width: 150px;
+}
+
   p.modalEText {
     text-align: center;
     font-size: 30px;
@@ -28,10 +25,3 @@
     width: 600px;
     height: 366px;
   }
-  button.SaveMeBtn.btn.btn-primary {
-    height: 230px;
-    width: 230px;
-    border-style: unset;
-    border-radius: 126px;
-    font-size: 40px;
-}

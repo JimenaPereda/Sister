@@ -24,6 +24,7 @@
     width: 680px;
   }
   .ReactModal__Content.ReactModal__Content--after-open {
+    background:none;
     height: auto;
     width: 679px;
   }

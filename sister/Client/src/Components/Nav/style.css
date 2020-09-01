@@ -2,6 +2,7 @@
     color: white;
     font-size: 28px;
     margin-left: 25px;
+    font-family: 'Bad Script', cursive;
 }
 .navbar-light .navbar-nav .nav-link:hover{
     color: #EA85C7;

@@ -3,8 +3,7 @@
 }
 .containerStay {
     border-color: #08104e;
-    width: 604px;
-    border-radius: 25px;
+    width: 600px;  
     background-color: #f7d5eb;
     padding-right: 23%;
     border-style: dotted;
@@ -21,29 +20,33 @@
     width: 650px;
 }
 .Col{
-    padding-left: 17%;
+    padding-left: 15%;
+}
+.label.lable{
+    background-color: #08104e;
+    color: white;
 }
 .formC{
     border-style: unset;
     color: white;
+    width: 850px;
+    height: 350px;
+    background-color: #08104e;
+    margin-bottom: -1px;
+    border-color: white;
     border-radius: 25px;
-    width: 810px;
-    height: 50px;
-    background-color:#08104e;
-    margin-bottom: 40px;
-    border-color:  white;
 }
 .colSub{
-    padding-left: 43%;
+    padding-left: 15%;
 }
 .submitlBtn{
     border-radius: 70px;
     margin-bottom: 90px;
     height: 50px;
-    width: 150px;
+    width: 850px;
     background-color: deeppink;
     color: #ffffff;
-    border: 1px;
+    border: -1px;
     border-color: #EA85C7;
     text-align: center;
     text-decoration: none;

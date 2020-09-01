@@ -4,25 +4,25 @@ import {useHistory}  from 'react-router-dom';
 import Modal from 'react-modal';
 import './style.css';
 
-function EmergencyModal() {
-    const [emergencyIsOpen,setEmergencyIsOpen] = useState(false)
+function SaveMeModal() {
+    const [saveMeIsOpen,setSaveMeIsOpen] = useState(false)
     return (
     <div className="SaveMe">
-        <Button className="SaveMeBtn" onClick={()=> setEmergencyIsOpen(true)}>Save Me</Button>
+        <Button className="SaveMeBtn" onClick={()=> setSaveMeIsOpen(true)}></Button>
 
-       <div className="EmergencyWrapper">
-        <Modal isOpen={emergencyIsOpen} onRequestClose ={()=> setEmergencyIsOpen(false)}>
-                   <h1 className="EmergencyTitleMod">EMERGENCY BUTTON <br/> HAS BEEN ACTIVATED!!!</h1>
+       <div className="saveMeWrapper">
+        <Modal isOpen={saveMeIsOpen} onRequestClose ={()=> setSaveMeIsOpen(false)}>
+                   <h1 className="saveMeTitleMod">SAVE ME BUTTON <br/> HAS BEEN ACTIVATED!!!</h1>
 
-                   <div className="etextEmergencyWrap">
-                     <p className="EmergencyEText">
+                   <div className="etextsaveMeWrap">
+                     <p className="saveMeEText">
                      We just alert EVERYONE<br/>
                      in our power please keep <br/>
                      safe sister, we are in our way there!
                      </p>
                   </div>
 
-               <Button className="closeBtn" onClick={()=> setEmergencyIsOpen(false)}>Close</Button>
+               <Button className="closeBtn" onClick={()=> setSaveMeIsOpen(false)}>Close</Button>
                 
 
       </Modal>
@@ -31,4 +31,4 @@ function EmergencyModal() {
   );
 }
 
-export default EmergencyModal;
+export default SaveMeModal;

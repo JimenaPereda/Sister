@@ -4,25 +4,26 @@ import {useHistory}  from 'react-router-dom';
 import Modal from 'react-modal';
 import './style.css';
 
-function EmergencyModal() {
-    const [emergencyIsOpen,setEmergencyIsOpen] = useState(false)
+function RingMeModal() {
+    const [ringMeIsOpen,setRingMeIsOpen] = useState(false)
     return (
-    <div className="SaveMe">
-        <Button className="SaveMeBtn" onClick={()=> setEmergencyIsOpen(true)}>Save Me</Button>
+    <div className="RingMe">
+        <Button className="RingMeBtn" onClick={()=> setRingMeIsOpen(true)}></Button>
 
-       <div className="EmergencyWrapper">
-        <Modal isOpen={emergencyIsOpen} onRequestClose ={()=> setEmergencyIsOpen(false)}>
-                   <h1 className="EmergencyTitleMod">EMERGENCY BUTTON <br/> HAS BEEN ACTIVATED!!!</h1>
+       <div className="RingMeWrapper">
+        <Modal isOpen={ringMeIsOpen} onRequestClose ={()=> setRingMeIsOpen(false)}>
+                   <h1 className="RingMeTitleMod">RING ME BUTTON <br/> HAS BEEN ACTIVATED!!!</h1>
 
-                   <div className="etextEmergencyWrap">
-                     <p className="EmergencyEText">
-                     We just alert EVERYONE<br/>
-                     in our power please keep <br/>
-                     safe sister, we are in our way there!
+                   <div className="etextRingMeWrap">
+                     <p className="RingMeEText">
+                     We alert YOUR SISTERS, if a sister is near, she will go or contact you, <br/> 
+                     if you are a victim of domestic violence or it is a major emergency, <br/> 
+                     press the SAVE ME! Button.<br/> 
+                     WE ARE WITH YOU!
                      </p>
                   </div>
 
-               <Button className="closeBtn" onClick={()=> setEmergencyIsOpen(false)}>Close</Button>
+               <Button className="closeBtn" onClick={()=> setRingMeIsOpen(false)}>Close</Button>
                 
 
       </Modal>
@@ -31,4 +32,4 @@ function EmergencyModal() {
   );
 }
 
-export default EmergencyModal;
+export default RingMeModal;

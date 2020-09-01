@@ -4,25 +4,27 @@ import {useHistory}  from 'react-router-dom';
 import Modal from 'react-modal';
 import './style.css';
 
-function EmergencyModal() {
-    const [emergencyIsOpen,setEmergencyIsOpen] = useState(false)
+function DateModal() {
+    const [dateIsOpen,setDateIsOpen] = useState(false)
     return (
-    <div className="SaveMe">
-        <Button className="SaveMeBtn" onClick={()=> setEmergencyIsOpen(true)}>Save Me</Button>
+    <div className="Date">
+        <Button className="DateBtn" onClick={()=> setDateIsOpen(true)}></Button>
 
-       <div className="EmergencyWrapper">
-        <Modal isOpen={emergencyIsOpen} onRequestClose ={()=> setEmergencyIsOpen(false)}>
-                   <h1 className="EmergencyTitleMod">EMERGENCY BUTTON <br/> HAS BEEN ACTIVATED!!!</h1>
+       <div className="DateWrapper">
+        <Modal isOpen={dateIsOpen} onRequestClose ={()=> setDateIsOpen(false)}>
+                   <h1 className="DateTitleMod">THE DATE BUTTON <br/> HAS BEEN ACTIVATED!!!</h1>
 
-                   <div className="etextEmergencyWrap">
-                     <p className="EmergencyEText">
-                     We just alert EVERYONE<br/>
-                     in our power please keep <br/>
-                     safe sister, we are in our way there!
+                   <div className="etextDateWrap">
+                     <p className="DateEText">
+                     You do not feel comfortable, safe or valued with the person you are with? <br/>
+                     Or are you just very bored and want to get out of the situation? <br/>
+                     We alert YOUR SISTERS, if a sister is near, she will go or contact<br/>
+                      you and will help you to get out of that uncomfortable moment!<br/>
+                      WE GOT YOU GIRL!
                      </p>
                   </div>
 
-               <Button className="closeBtn" onClick={()=> setEmergencyIsOpen(false)}>Close</Button>
+               <Button className="closeBtn" onClick={()=> setDateIsOpen(false)}>Close</Button>
                 
 
       </Modal>
@@ -31,4 +33,4 @@ function EmergencyModal() {
   );
 }
 
-export default EmergencyModal;
+export default DateModal;

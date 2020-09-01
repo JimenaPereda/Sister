@@ -4,25 +4,27 @@ import {useHistory}  from 'react-router-dom';
 import Modal from 'react-modal';
 import './style.css';
 
-function EmergencyModal() {
-    const [emergencyIsOpen,setEmergencyIsOpen] = useState(false)
+function RideModal() {
+    const [rideIsOpen,setRideIsOpen] = useState(false)
     return (
-    <div className="SaveMe">
-        <Button className="SaveMeBtn" onClick={()=> setEmergencyIsOpen(true)}>Save Me</Button>
+    <div className="Ride">
+        <Button className="RideBtn" onClick={()=> setRideIsOpen(true)}></Button>
 
-       <div className="EmergencyWrapper">
-        <Modal isOpen={emergencyIsOpen} onRequestClose ={()=> setEmergencyIsOpen(false)}>
-                   <h1 className="EmergencyTitleMod">EMERGENCY BUTTON <br/> HAS BEEN ACTIVATED!!!</h1>
+       <div className="RideWrapper">
+        <Modal isOpen={rideIsOpen} onRequestClose ={()=> setRideIsOpen(false)}>
+                   <h1 className="RideTitleMod">RIDE TRACKING BUTTON <br/> HAS BEEN ACTIVATED!!!</h1>
 
-                   <div className="etextEmergencyWrap">
-                     <p className="EmergencyEText">
-                     We just alert EVERYONE<br/>
-                     in our power please keep <br/>
-                     safe sister, we are in our way there!
+                   <div className="etextRideWrap">
+                     <p className="RideEText">
+                     If you feel unsafe in the vehicle in which you are going, please provide us with more <br/>
+                     information in the STAY SAFE section (such as license plates, driver's name, characteristics,<br/>
+                      where you are going, how you took that ride...) in this way we will have more info in case the<br/>
+                       button of SAVE ME is activated, if you think this is a kidnapping please press the SAVE ME button,<br/>
+                        anyway we are  following closely your location!
                      </p>
                   </div>
 
-               <Button className="closeBtn" onClick={()=> setEmergencyIsOpen(false)}>Close</Button>
+               <Button className="closeBtn" onClick={()=> setRideIsOpen(false)}>Close</Button>
                 
 
       </Modal>
@@ -31,4 +33,4 @@ function EmergencyModal() {
   );
 }
 
-export default EmergencyModal;
+export default RideModal;

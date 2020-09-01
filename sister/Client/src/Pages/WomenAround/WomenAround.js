@@ -17,7 +17,8 @@ function WomanA(){
     <Col className="listInfo">
                  <p  className="cardFont">
                    Name:<br />
-                   Emergency button was press: <br />
+                   Type of Emergency: <br />
+                   Minutes Ago:<br />
                    Location close to: <br />
                    Extact Location:<br />
                    Contact Her:<br />

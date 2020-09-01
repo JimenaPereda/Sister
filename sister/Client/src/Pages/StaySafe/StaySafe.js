@@ -22,10 +22,10 @@ function StaySafeW(){
        </div>,
 
        <div className="Col">
-           
-
-           <Form.Control  className="formC" placeholder="Please enter your informatioh here..." />
-           
+        <label className="lable">Please enter your informatioh here... : 
+        
+        <input  className="formC" type="textarea" />
+        </label>
        </div>
 
        <div className="colSub">
