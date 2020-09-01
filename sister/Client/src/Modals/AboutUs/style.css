@@ -1,32 +1,24 @@
-.App {
-    text-align: center;
-  }
+
   h1.AboutUsTtitle {
-    text-align: center;
+    padding-left: 20%;
+    text-align: left;
     color: #EA85C7;
     font-family: 'Finger Paint', cursive;
   }
-  button.closeBtn.btn.btn-primary {
-    color: navy;
-    font-size: 23px;
-    border-radius: 25px;
-    border-style: dotted;
-    border-color: navy;
-    font-family: 'Finger Paint', cursive;
-    background-color: #EA85C7;
-    margin-top: 30px;
-    margin-right: 20px;
-    width: 91px;
-    margin-left: 300px;
-  }
+  
   
   .jumbo.jumbotron {
-    width: 680px;
-  }
-  .ReactModal__Content.ReactModal__Content--after-open {
-    background:none;
+    padding-left: 30%;
     height: auto;
-    width: 679px;
+    width: 900px;
+   background-color:white ;
   }
-  
+  .AboutUsBackground{
+    background-image:url(./../../Components/Images/fondomod.jpg) ;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+ p.AboutUsText{
+   text-align: left;
+ }
   

@@ -12,6 +12,11 @@ function DateModal() {
 
        <div className="DateWrapper">
         <Modal isOpen={dateIsOpen} onRequestClose ={()=> setDateIsOpen(false)}>
+        <div className="Clooosebtn">
+						<Button className="closeBtn" onClick={() => setDateIsOpen(false)}>
+							X
+						</Button>
+					</div>
                    <h1 className="DateTitleMod">THE DATE BUTTON <br/> HAS BEEN ACTIVATED!!!</h1>
 
                    <div className="etextDateWrap">
@@ -23,9 +28,6 @@ function DateModal() {
                       WE GOT YOU GIRL!
                      </p>
                   </div>
-
-               <Button className="closeBtn" onClick={()=> setDateIsOpen(false)}>Close</Button>
-                
 
       </Modal>
       </div> 

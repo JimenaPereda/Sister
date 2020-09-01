@@ -28,10 +28,10 @@
     font-size: 12px;
 }
 .cardFont{
+    padding-left: 8%;
+    text-align: left;
     font-family: 'Amatic SC', cursive;
     width: 600px;
-    font-family: 'Amatic SC', cursive;
     font-size: 16px;
-    padding-left: 5%;
     color: #08104e;
 }

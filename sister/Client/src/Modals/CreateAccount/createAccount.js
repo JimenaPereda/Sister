@@ -12,6 +12,12 @@ function SignIn() {
 
 			<div className="modalWrapper">
 				<Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}>
+				<div className="Clooosebtn">
+					<Button className="closeBtn" onClick={() => setModalIsOpen(false)}>
+								X
+							</Button>
+
+					</div>
 					<h1 className="SignInTtitle">Sign in</h1>
 					<Form>
 						<Form.Group controlId="formBasicEmail">
@@ -147,15 +153,13 @@ function SignIn() {
 						</Form.Text>
 						<div className="modBtns">
 						<Link to="/Home">
-							<Button variant="primary" type="submit" onClick={
+							<Button className="SubmBtn" variant="primary" type="submit" onClick={
 							()=> console.log("fofofof")}>
 							
 							Submit
 						</Button>
 						</Link>
-							<Button className="closeBtn" onClick={() => setModalIsOpen(false)}>
-								Close
-							</Button>
+							
 						</div>
 					</Form>
 				</Modal>

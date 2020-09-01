@@ -3,13 +3,7 @@ h1.SignInTtitle {
     color: #EA85C7;
     font-family: 'Finger Paint', cursive;
   }
-  .ReactModal__Overlay.ReactModal__Overlay--after-open {
-    width: 800px;
-    height: auto;
-  }
-  .ReactModal__Overlay.ReactModal__Overlay--after-open {
-    left: 300px;
-  }
+ 
   label.form-label {
     padding-left: 23%;
     color: #EA85C7;
@@ -35,18 +29,6 @@ h1.SignInTtitle {
     margin-top: 30px;
     margin-right: 20px;
     margin-left: 127px;
-  }
-  button.closeBtn.btn.btn-primary {
-    color: navy;
-    font-size: 23px;
-    border-radius: 25px;
-    border-style: dotted;
-    border-color: navy;
-    font-family: 'Finger Paint', cursive;
-    background-color: #EA85C7;
-    margin-top: 30px;
-    margin-right: 20px;
-    width: 91px;
   }
   input#formBasicAge {
     margin-left: 113px;
@@ -88,7 +70,7 @@ h1.SignInTtitle {
     margin-left: 112px;
   }
   input.emergenvyContInfo.form-control {
-    margin-left: 293px;
+    margin-left: 279px;
   }
   .modBtns {
     padding-left: 10%;

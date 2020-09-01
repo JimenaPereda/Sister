@@ -16,6 +16,7 @@
     padding-left: 17%;
   }
   .ProfileRow{
+    background-color: #223f61;
     object-fit: cover;
       object-position:  center;
       background-repeat: no-repeat;
@@ -37,6 +38,7 @@
     margin-right: 8%;
   }
   p.userProfI {
+    text-align: left;
     width: 335px;
     padding-left: 3%;
     margin-top: -14px;
@@ -48,10 +50,17 @@
     
   }
   .facePic{
-    border-color: #EA85C7;
-    border: 1px, solid;
+    border-radius: 25px;
+    margin-left: 11px;
+    margin-top: 0;
+    margin-bottom: 11px;
+    width: 234px;
+    height: 182px;
+    margin-right: -20px;
   }
   .bodyPic{
+    margin-top: -15%;
+    width: 236px;
     border: 1px, solid;
     border-color: #EA85C7;
   }

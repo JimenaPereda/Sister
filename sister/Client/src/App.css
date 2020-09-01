@@ -1,13 +1,42 @@
-modal{
-    position: fixed;
-    z-index: 500;
-    background-color: white;
-    width: 70%;
-    border: 1px solid #ccc;
-    box-shadow: 1px 1px 1px black;
-    padding: 16px;
-    left: 15%;
-    top: 30%;
-    box-sizing: border-box;
-    transition: all 0.3s ease-out;
+h1 {
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Finger Paint', cursive;
+    color: #EA85C7;
+}
+
+button.closeBtn.btn.btn-primary {
+    color:  hotpink;
+    font-size: 23px;
+    border-style: dotted;
+    border-color: hotpink;
+    font-family: 'Finger Paint', cursive;
+    margin-top: 3px;
+    width: 39px;
+    margin-bottom: 5px;
+    margin-left: 91%;
+}
+
+button.SubmBtn.btn.btn-primary {
+    border-style: unset;
+    border-radius: 70px;
+    color: #1c3a5e;
+    font-size: 18px;
+    font-family: 'Finger Paint', cursive;
+    background-color: #ea85c7;
+    margin-top: 65px;
+    margin-left: 60%;
+    margin-right: 20px;
+    width: 93px;
+    margin-bottom: 15px;
+}
+
+.modBtns{
+    display: -ms-inline-flexbox;
+}
+.etextsaveMeWrap {
+    TEXT-ALIGN: center;
+}
+p{
+    text-align: center;
 }

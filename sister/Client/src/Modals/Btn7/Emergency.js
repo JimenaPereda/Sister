@@ -12,6 +12,11 @@ function HotLineModal() {
 
        <div className="HotLineWrapper">
         <Modal isOpen={hotLineIsOpen} onRequestClose ={()=> setHotLineIsOpen(false)}>
+        <div className="Clooosebtn">
+						<Button className="closeBtn" onClick={() => setHotLineIsOpen(false)}>
+							X
+						</Button>
+					</div>
                    <h1 className="HotLineTitleMod">TALK BUTTON <br/> HAS BEEN ACTIVATED!!!</h1>
 
                    <div className="etextHotLineWrap">
@@ -25,12 +30,9 @@ function HotLineModal() {
                      <br/>1-800-273-8255 <br/>
                   24h Woman Crisis Hotline:<br/>
                    (954)761-1133<br/>
-                      YOU ARE BEAUTIFUL!
+                      <h1>YOU ARE BEAUTIFUL!</h1>
                      </p>
                   </div>
-
-               <Button className="closeBtn" onClick={()=> setHotLineIsOpen(false)}>Close</Button>
-                
 
       </Modal>
       </div> 

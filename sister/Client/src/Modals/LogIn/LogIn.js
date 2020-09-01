@@ -17,6 +17,12 @@ function LogIn() {
 
 			<div className="modalWrapper">
 				<Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}>
+					<div className="Clooosebtn">
+					<Button className="closeBtn" onClick={() => setModalIsOpen(false)}>
+								X
+							</Button>
+
+					</div>
 					<h1 className="LogInTtitle">log in</h1>
 					<Form onSubmit={(event)=> event.preventDefault()}>
 						
@@ -36,16 +42,14 @@ function LogIn() {
 						</Form.Group>
 
 						
-							<Button variant="primary"  onClick={
+							<Button className="SubmBtn" variant="primary"  onClick={
 							()=> reDirect()}>
 						
 							Submit
 						</Button>
 					
 
-						<Button className="closeBtn" onClick={() => setModalIsOpen(false)}>
-							Close
-						</Button>
+						
 					</Form>
 				</Modal>
 			</div>

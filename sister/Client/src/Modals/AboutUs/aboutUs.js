@@ -10,21 +10,28 @@ function AboutUS() {
 			<Button className="mainBtnIndex" onClick={() => setModalIsOpen(true)}>About Us</Button>
 
 			<div className="modalWrapper">
-				<Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}>
+				<Modal className="Modal" isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}>
 					<div className="jumboCoint">
+					
 						<Jumbotron className="jumbo">
-							<Container>
+						<div className="Clooosebtn">
+					<Button className="closeBtn" onClick={() => setModalIsOpen(false)}>
+								X
+							</Button>
+
+					</div>
+							<Container className="AboutUsBackground">
 								<h1 className="AboutUsTtitle">About Us</h1>
-								<p>
+								<p className="AboutUsText">
 									<br />
 									In a world where women can become vulnerable we want to protect you. <br />
 									Tired of so many news that could have been avoided and caused a lot of pain, <br />
-									our founder decided to create this platform to make women safer and avoid being{' '}
+									our founder decided to create this platform to make women safer and avoid being
 									<br />
 									another page on the newspapers.
 									<br />
-									We firmly believe that unity is strength and that as women we must protect each
-									other. We cannot allow these situations to continue, we cannot approve that society
+									We firmly believe that unity is strength and that as women we must protect each <br />
+									other. We cannot allow these situations to continue, we cannot approve that society <br />
 									has lost empathy in such an aberrational facts that had become common. <br /> <br />
 									We are not another sad news,
 									<br />
@@ -43,12 +50,14 @@ function AboutUS() {
 									<br />
 								</p>
 							</Container>
+							<Button className="closeBtn" onClick={() => setModalIsOpen(false)}>
+						X
+					</Button>
 						</Jumbotron>
+						
 					</div>
 
-					<Button className="closeBtn" onClick={() => setModalIsOpen(false)}>
-						Close
-					</Button>
+					
 				</Modal>
 			</div>
 		</div>
