@@ -14,7 +14,7 @@
     width: 500px;
     padding-left: 22%;
 }
-.facePic{
+.facePicSis{
     border-radius: 25px;
     margin-left: 11px;
     margin-top: 11px;
@@ -28,7 +28,7 @@
     font-size: 12px;
 }
 .cardFont{
-    padding-left: 8%;
+    padding-left: 6%;
     text-align: left;
     font-family: 'Amatic SC', cursive;
     width: 600px;

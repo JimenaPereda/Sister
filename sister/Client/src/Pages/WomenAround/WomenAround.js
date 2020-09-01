@@ -12,7 +12,7 @@ function WomanA(){
         <Container className="containerRow">
   <Row className="cRow">
     <Col >
-      <Image className="facePic" src={chica4} rounded />
+      <Image className="facePicSis" src={chica4} rounded />
     </Col>
     <Col className="listInfo">
                  <p  className="cardFont">
