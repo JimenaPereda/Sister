@@ -47,7 +47,7 @@ function HomeB(){
            </Row>
          </div>
          <div className="colCancel">
-             <Button className="cancelBtn">Cancel </Button>
+             <Button className="cancelBtn"> C A N C E L</Button>
          </div>
          <div className="HomeInfoCont">
           <div className="textareaHome">

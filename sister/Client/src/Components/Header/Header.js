@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {useHistory}  from 'react-router-dom';
-import Logo from "./Images/Sister.png";
+import Logo from "./Images/Sister1.jpg";
 import './style.css';
 
 
