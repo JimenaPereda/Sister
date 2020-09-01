@@ -1,27 +1,25 @@
+
 .indexWrap{
-    width: 1000px;
-    height: 900px;
-    background-image: url(./../../Components/Images/Freedom.jpg);
+    
+    background-image: url(./../../Components/Images/Free3.jpg);
     object-fit: cover;
     object-position:  center;
     background-repeat: no-repeat;
-      background-position: center;
-      background-size: 67%;
+   height: 900px;
+      background-size: 100%;
 }
 .indexCard{
-    margin-top: 202px;
-    padding-left: 40%;
+    margin-top: 160px;
+    padding-left: 46%;
     display: inline-grid;
 }
 
-button.btn.btn-primary {
-    font-family: 'Finger Paint', cursive;
-    background-color: #EA85C7;
-    width: 200px;
-    margin-top: 25px;
-    color: navy;
-    font-size: 35px;
-    border-radius: 25px;
-    border-style: dotted;
-    border-color: navy;
+button.mainBtnIndex.btn.btn-primary {
+    margin-bottom: 10px;
+    font-size: 40px;
+    margin-top: 20px;
+    background: none;
+    color: white;
+    border: none;
+    font-family: 'Calligraffitti', cursive;
 }

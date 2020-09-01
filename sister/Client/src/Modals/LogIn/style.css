@@ -48,3 +48,10 @@ h1.LogInTtitle {
     margin-right: 20px;
     width: 91px;
   }
+  .ReactModal__Overlay.ReactModal__Overlay--after-open {
+    position: fixed;
+    top: -10px;
+    left: 25%;
+    right: 0px;
+    bottom: 0;
+  }

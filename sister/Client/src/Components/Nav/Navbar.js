@@ -13,25 +13,24 @@ function NavBar(){
    return(
 
       <div>
-        {history.location.pathname!== "/"&&(
+        {history.location.pathname!== "/" ?(
       <Container className="Nav">
-        <div className="imgLogo">
-       <img src={Logo} alt="" width="130" height="70"/>
-    </div>
+       
         <Navbar className="menubar">
+       
         <Nav className="mr-auto">
-         <Nav.Link className="round-button" href="/Home">Home |</Nav.Link>
-         <div className="divider" ></div>
-         <Nav.Link className="round-button" href="/StaySafe">Stay Safe |</Nav.Link>
-         <div className="divider" ></div>
-         <Nav.Link className="round-button" href="/WomanAround">Woman around me |</Nav.Link>
-         <div className="divider" ></div>
+         <Nav.Link className="round-button" href="/Home">Home </Nav.Link>
+       
+         <Nav.Link className="round-button" href="/StaySafe">Stay Safe </Nav.Link>
+       
+         <Nav.Link className="round-button" href="/WomanAround">Woman around me </Nav.Link>
+       
          <Nav.Link className="round-button" href="/Profile">Profile</Nav.Link>
-         <div className="divider" ></div>
+       
        </Nav>
         </Navbar>
      </Container>
-     )}
+     ):<></>}
        </div>
     
 

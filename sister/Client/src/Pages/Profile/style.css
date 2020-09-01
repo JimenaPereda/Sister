@@ -1,10 +1,12 @@
 .ProfileName{
+  margin-top: 80px;
     border-radius: 25px;
     background-color:#EA85C7;
     color: white;
       text-align: center;
   }
   h2{
+   
     width: 250px;
     border-radius: 25px;
     background-color:#EA85C7;
@@ -20,7 +22,7 @@
         background-position: center;
         background-size: 100%;
       width: 900px;
-      background-image: url(./../../Components/Images/fondo.jpg);
+     
       border-radius: 45px;
    
   }

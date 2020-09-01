@@ -1,21 +1,27 @@
-import React, { Component } from 'react'
-import { Image, } from 'react-native'
 
-class BackgroundImage extends Component {
-  render() {
-    const {source, children, style, ...props} = this.props
-    return (
-      <Image source={ source }
-             style={ { flex: 1, width: null, height: null, ...style } }
-             {...props}>
-        { children }
-      </Image>
-    )
-  }
-}
-BackgroundImage.propTypes = {
-  source: React.PropTypes.object,
-  children: React.PropTypes.object,
-  style: React.PropTypes.object
-}
-export default BackgroundImage
+import React from "react";
+import { ImageBackground, StyleSheet, Text, View } from "react-native";
+import ImageBack from "./../Images/Freedom.jpg";
+
+const BackGround = () => (
+  <View style={styles.container}>
+    <ImageBackground source={ImageBack} style={styles.ImageBack}>
+      <Text style={styles.text}>Inside</Text>
+    </ImageBackground>
+  </View>
+);
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    flexDirection: "column"
+  },
+  ImageBack: {
+    flex: 1,
+    resizeMode: "cover",
+    justifyContent: "center"
+  },
+ 
+});
+
+export default BackGround;

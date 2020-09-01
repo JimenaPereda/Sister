@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Form, Button, Col } from 'react-bootstrap';
 import Modal from 'react-modal';
 import './style.css';
@@ -7,7 +8,7 @@ function SignIn() {
 	const [modalIsOpen, setModalIsOpen] = useState(false);
 	return (
 		<div className="SignIn">
-			<Button onClick={() => setModalIsOpen(true)}>Sign in</Button>
+			<Button className="mainBtnIndex"onClick={() => setModalIsOpen(true)}>Sign in</Button>
 
 			<div className="modalWrapper">
 				<Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}>
@@ -145,10 +146,13 @@ function SignIn() {
 							else.
 						</Form.Text>
 						<div className="modBtns">
-							<Button className="submitBtn" variant="primary" type="submit">
-								{' '}
-								Submit{' '}
-							</Button>
+						<Link to="/Home">
+							<Button variant="primary" type="submit" onClick={
+							()=> console.log("fofofof")}>
+							
+							Submit
+						</Button>
+						</Link>
 							<Button className="closeBtn" onClick={() => setModalIsOpen(false)}>
 								Close
 							</Button>

@@ -1,5 +1,15 @@
 .homebod{
     width: 250px;
     height: 150px;
-    margin-left: 38%;
+    margin-left: 41%;
+}
+img.LogoLogo {
+    margin-top: 10px;
+}
+.HeaderBk{
+    height: 156px;
+    background-image: url(./Images/Head3.jpg);
+    background-size: 100%;
+    background-position: top ;
+    background-repeat: no-repeat;
 }

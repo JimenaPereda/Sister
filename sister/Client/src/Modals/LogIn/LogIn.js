@@ -1,13 +1,19 @@
 import React, { useState } from 'react';
 import { Form, Button } from 'react-bootstrap';
+import {useHistory}  from 'react-router-dom';
 import Modal from 'react-modal';
 import './style.css';
 
 function LogIn() {
 	const [modalIsOpen, setModalIsOpen] = useState(false);
-	return (
+	const history = useHistory();
+	const reDirect = ()=>{
+		history.push({pathname:"/Home"})
+	}
+  
+   return (
 		<div className="LogIn">
-			<Button onClick={() => setModalIsOpen(true)}>Log in</Button>
+			<Button className="mainBtnIndex" onClick={() => setModalIsOpen(true)}>Log in</Button>
 
 			<div className="modalWrapper">
 				<Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}>
@@ -29,11 +35,14 @@ function LogIn() {
 							<Form.Control type="password" placeholder="Password" />
 						</Form.Group>
 
-						<Button variant="primary" type="submit" onClick={
-							()=> console.log("fofofof")}>
-							{' '}
-							Submit{' '}
+						
+							<Button variant="primary"  onClick={
+							()=> reDirect()}>
+						
+							Submit
 						</Button>
+					
+
 						<Button className="closeBtn" onClick={() => setModalIsOpen(false)}>
 							Close
 						</Button>

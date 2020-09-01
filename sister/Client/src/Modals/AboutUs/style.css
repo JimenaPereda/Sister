@@ -20,14 +20,6 @@
     margin-left: 300px;
   }
   
-  .container {
-    background-image: url(./../../Components/Images/fondomod.jpg);
-    height: 550px;
-    width: 593px;
-    padding-left: 6%;
-    background-position: right;
-    background-repeat: no-repeat;
-  }
   .jumbo.jumbotron {
     width: 680px;
   }

@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Header from "./Components/Header/Header";
 import NavBar from "./Components/Nav/Navbar";
 import MainPage from "./Pages/Main/IndexPage"
 import HomeB from "./Pages/Home/Home";
@@ -15,9 +16,9 @@ function App() {
     <Router>
       
     <div> 
-   
-          <div className="header">
-         
+      
+          <div className="HeaderBackgrouund">
+          <Header />
           <NavBar />
            </div>
            <Route exact path ="/" component = {MainPage} />

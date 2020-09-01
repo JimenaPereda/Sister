@@ -1,9 +1,14 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import { Button, Col} from 'react-bootstrap';
+import {useHistory}  from 'react-router-dom';
+import EmergencyModal from "./../../Modals/WhenEmergency/WhenEmergency"
 import './style.css';
 
 
 function HomeB(){
+  const [emergencyIsOpen,setEmergencyIsOpen] = useState(false)
+  const history = useHistory();
+  console.log(history.location)
     return(
 
          <div>
@@ -21,7 +26,7 @@ function HomeB(){
          
          <Col>
           <div className="colSave">
-            <Button className="saveBtn">Save Me</Button>,
+          <EmergencyModal/>
           </div>
          </Col>
          <div className="colCancel">

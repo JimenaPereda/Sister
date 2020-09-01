@@ -11,25 +11,26 @@
     background-color: #f7d5eb;
     padding-right: 23%;
     border-style: dotted;
-    margin-top: 40px;
+    margin-top: 80px;
     width: 604px;
-    border-radius: 25px;
+    height: 199px;
     background-color: #f7d5eb;
     padding-right: 23%;
 }
 
 
 p.textHome{
+    margin-top: 44px;
     font-family: 'Architects Daughter', cursive;
-    padding-left: 23%;
+    padding-left: 18%;
    color:#08104e;
     font-size: 16px;
     width: 650px;
+    
 }
 .youAre{
     color: #EA85C7;
-    padding-left: 22%;
-    background-color: white;
+    padding-left: 14%;
 }
 
 
@@ -66,17 +67,18 @@ p.textHome{
     margin: 4px 2px;
 }
 .colSave{
-    padding-left: 31%;
+    margin-top: 20px;
+    padding-left: 24%;
 }
 .colCancel{
     margin-bottom: 50px;
     margin-top: 53px;
-    padding-left: 38%;
+    padding-left: 29%;
 }
 .homeDivi{
     padding-left: 22%;
 }
-.homeBack{
+/*.homeBack{
     object-fit: cover;
     object-position:  center;
     background-repeat: no-repeat;
@@ -85,4 +87,4 @@ p.textHome{
     width: 700px;
     background-image: url(./../../Components/Images/fondo.jpg);
     border-radius: 45px;
-}
+}*/

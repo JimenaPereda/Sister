@@ -7,7 +7,7 @@ function AboutUS() {
 	const [modalIsOpen, setModalIsOpen] = useState(false);
 	return (
 		<div className="AboutUS">
-			<Button onClick={() => setModalIsOpen(true)}>About Us</Button>
+			<Button className="mainBtnIndex" onClick={() => setModalIsOpen(true)}>About Us</Button>
 
 			<div className="modalWrapper">
 				<Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}>

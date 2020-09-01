@@ -1,27 +1,37 @@
 .navbar-light .navbar-nav .nav-link {
-    color: #B9B7BD;
-    font-size: 30px;
-    border: 1px, solid #B9B7BD;
+    color: white;
+    font-size: 28px;
+    margin-left: 25px;
 }
 .navbar-light .navbar-nav .nav-link:hover{
     color: #EA85C7;
   }
 
 .menubar{
-    margin-top: 20px;
-    margin-left: 23%;
-	display: inline-flex;
+    margin-top: 10px;
+    margin-left: 4%;
+    display: inline-flex;
+    
 }
 .Nav.container {
-    display: inline-flex;
+    margin-top: -29px;
+    height: 14px;
+
 }
-.imgLogo {
-    padding-left: 7%;
-    margin-top: 26px;
-}
+
+
 .mr-auto.navbar-nav {
-    display: -webkit-inline-box;
+    background-image: url(./../Images/navbarB.jpg);
+    height: 42px;
+    width: 692px;
+    background-size: 100%;
+    background-position: top;
+    margin-top: 25px;
+    display: inline-flex;
+    padding-left: 250px;
 }
-header{
-    background-color: #f7d5eb63;
+
+img.LogoNav {
+    margin-top: 42px;
 }
+

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {useHistory}  from 'react-router-dom';
-import Logo from "./../Images/SISTER.png"
+import Logo from "./Images/Sister.png";
 import './style.css';
 
 
@@ -15,9 +15,11 @@ function Header() {
     <div>
       {history.location.pathname!== "/"&&(
                 
-       <div className="homebod">
-       <img src={Logo} alt="" width="274" height="161"/>
-    </div>
+       <div className="HeaderBk">
+         <div className="homebod">
+            <img className="LogoLogo"src={Logo} alt="" width="240" height="145"/>
+         </div>
+       </div>
     
    )}
      </div>
