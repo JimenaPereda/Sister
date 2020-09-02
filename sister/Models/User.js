@@ -1,10 +1,9 @@
 const mongoose = require("mongoose");
-const { number } = require("prop-types");
 
 const Schema = mongoose.Schema;
 
 const UserSchema = new Schema({
-  Name: {
+  name: {
     type: String,
     trim: true,
     required: "First Name and lastname is Required"
@@ -24,34 +23,34 @@ const UserSchema = new Schema({
     match: [/.+@.+\..+/, "Please enter a valid e-mail address"]
   },
 
-  Birthday: {
+  birthday: {
     type: Date,
     
   },
-  Age:{
+  age:{
       type: Number,
   },
 
-  Nacionality: String,
-  Language: String,
-  EyeColor: String,
-  HairColor: String,
-  Height: String,
-  Weight:  String,
-  SkinTone:String,
-  ParticularSigns: String,
-  StreetNumber: Number,
-  Street:String,
-  City: String,
-  State: String,
-  ZipCode: Number,
-  Country:  String,
-  ECName: String,
-  PhoneNumber: Number,
-  ECmail: String,
-  CountryOfRecidence: String,
+  nacionality: String,
+  language: String,
+  eyeColor: String,
+  hairColor: String,
+  height: String,
+  weight:  String,
+  skinTone:String,
+  particularSigns: String,
+  streetNumber: Number,
+  street:String,
+  city: String,
+  state: String,
+  zipCode: Number,
+  country:  String,
+  ecName: String,
+  ecPhone: Number,
+  ecMail: String,
+  countryofRecidence: String,
   photoBody:String,
- photoFace:String,
+  photoFace:String,
 
 });
 
