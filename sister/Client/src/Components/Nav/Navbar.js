@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Navbar, Nav, } from 'react-bootstrap';
 import {useHistory}  from 'react-router-dom';
-import Logo from "./../Images/SISTER.png"
 import './style.css';
 
 

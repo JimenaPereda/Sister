@@ -1,6 +1,4 @@
 import React, { useState, } from 'react';
-import { Form, Button, Col, Container, Jumbotron } from 'react-bootstrap';
-import Modal from 'react-modal';
 import LogIn from "./../../Modals/LogIn/LogIn"
 import  SignIn from "./../../Modals/CreateAccount/createAccount"
 import AboutUS from "./../../Modals/AboutUs/aboutUs"

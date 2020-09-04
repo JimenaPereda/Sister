@@ -40,3 +40,23 @@ h1.LogInTtitle {
     right: 0px;
     bottom: 0;
   }
+
+  @media only screen and (max-width: 1024px ){
+    .ReactModal__Content.ReactModal__Content--after-open{
+      position: absolute;
+      top: 45px;
+      left: 220px;
+      right: 0;
+      bottom: 40px;
+      border: 12px solid pink;
+      background: rgb(255, 255, 255);
+      overflow: auto;
+  }
+  .ReactModal__Overlay.ReactModal__Overlay--after-open {
+      background: none;
+      padding-left: 5%;
+  }
+  label.form-label {
+    padding-left: 10%;
+}
+  }

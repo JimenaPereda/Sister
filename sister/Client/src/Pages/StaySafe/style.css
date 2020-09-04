@@ -27,20 +27,12 @@
     background-color: #08104e;
     color: white;
 }
-.formC{
-    border-style: unset;
-    color: white;
-    width: 850px;
-    height: 350px;
-    background-color: #08104e;
-    margin-bottom: -1px;
-    border-color: white;
-    border-radius: 25px;
-}
+
 .colSub{
     padding-left: 15%;
 }
 .submitlBtn{
+    padding-left: 1%;
     border-radius: 70px;
     margin-bottom: 90px;
     height: 50px;
@@ -54,11 +46,22 @@
     font-size: 31px;
     margin: 4px 2px;
 }
-.colH{
- padding-left: 40%;
-}
+
 h1{
     font-family: 'Finger Paint', cursive;
     color:#EA85C7;
    }
    
+.formC.form-group {
+    display: grid;
+}
+textarea.form-control {
+    padding-left: 1%;
+    width: 850px;
+    border-radius: 25px;
+    height: 200px;
+    background-color: #08104e;
+    margin-bottom: -1px;
+    color: white;
+    font-size: 25px;
+}

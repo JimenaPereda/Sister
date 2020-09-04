@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React  from 'react';
 import {useHistory}  from 'react-router-dom';
 import footer from "./Images/footer.jpg"
 import './style.css';
@@ -15,7 +15,7 @@ function Footer() {
             {history.location.pathname!== "/"&&(
                       
                       <div className="footerImg">
-                      <img src={footer} alt="" width="1260px" height=""/>
+                      <img className="footerImgI" src={footer}/>
                  </div>
               
           

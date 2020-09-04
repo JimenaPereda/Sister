@@ -49,3 +49,51 @@ h1.textInfoFontTitle {
   text-align: left;
   font-family: 'Work Sans', sans-serif;
 }
+@media only screen and (max-width: 1024px ){
+  .ReactModal__Content.ReactModal__Content--after-open {
+    width: 400px;
+    height: 300px;
+  }
+  .ReactModal__Content.ReactModal__Content--after-open{
+    position: absolute;
+    top: 45px;
+    left: 280px;
+    right: 0;
+    bottom: 40px;
+    border: 12px solid pink;
+    background: rgb(255, 255, 255);
+    overflow: auto;
+}
+label.form-label {
+  padding-left: 10%;
+}
+
+button.SubmBtn.btn.btn-primary{
+  margin-top: 18px;
+}
+input.emergenvyContInfo.form-control {
+  margin-left: 39px;
+}
+.mr-auto.navbar-nav {
+
+  background-size: 93%;
+  padding-left: 241px;
+}
+
+.colCancel{
+  padding-left: 20%;
+}
+.HomeInfoCont{
+  padding-left: 20%;
+}
+.youAre {
+  padding-left: 12%;
+}
+img.footerImgI {
+  background-repeat: no-repeat;
+  width: 1024px;
+}
+.containerStay{
+  width: 498px;
+}
+}

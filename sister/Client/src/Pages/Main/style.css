@@ -24,13 +24,15 @@ button.mainBtnIndex.btn.btn-primary {
     font-family: 'Calligraffitti', cursive;
 }
 
-@media only screen and (max-width: 911px ){
+@media only screen and (max-width: 1024px ){
     button.mainBtnIndex.btn.btn-primary {
         margin-top: 4px;
     }
     .indexCard {
-        margin-top: 105px;
+        margin-top: 131px;
         padding-left: 43%;
         display: inline-grid;
     }
+    
+    
 }

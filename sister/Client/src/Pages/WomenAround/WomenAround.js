@@ -1,4 +1,4 @@
-import React, { Component, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Container, Col, Image, Row } from 'react-bootstrap';
 import './style.css';
 import API from './../../Utils/API';
@@ -35,7 +35,7 @@ function WomanA() {
 							
 								<span className="highText">Name: </span><span className="highText2">{sister.name}</span>
 								<br />
-                               <span className="highText"> Language: </span><span className="highText2">{sister.language}</span>
+                               <span className="highText"> Languages: </span><span className="highText2">{sister.language}</span>
                 <br />
 								<span className="highText">Type of Emergency: </span><span className="highText2">{sister.typeOfEmergency}<br /></span>
 								<span className="highText">Minutes Ago: </span><span className="highText2">{sister.minutesAgo}</span>

@@ -1,0 +1,33 @@
+.App {
+    text-align: center;
+  }
+  h1.EmergencyTitleMod {
+    text-align: center;
+    color: #EA85C7;
+    font-family: 'Finger Paint', cursive;
+  }
+.TextSubBtn{
+  padding-left: 1%;
+  border-radius: 70px;
+  margin-bottom: 90px;
+  height: 50px;
+  width: 850px;
+  background-color: deeppink;
+  color: #ffffff;
+  border: -1px;
+  border-color: #EA85C7;
+  text-align: center;
+  text-decoration: none;
+  font-size: 31px;
+  margin: 4px 2px;
+}
+
+  p.modalEText {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Architects Daughter', cursive;
+  }
+  .ReactModal__Content.ReactModal__Content--after-open.modalFrameSub {
+    width: 480px;
+    height: 187px;
+}

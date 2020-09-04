@@ -1,5 +1,5 @@
-import React, { Component, useEffect, useState } from 'react';
-import { Container, Col, Image, Row } from 'react-bootstrap';
+import React, {useEffect, useState } from 'react';
+import { Container, Col, Image, Row, Button } from 'react-bootstrap';
 import './style.css';
 import body from './../../Components/Images/Body.png';
 import face from './../../Components/Images/jimmyFace.png';
@@ -19,6 +19,7 @@ function ProfilE() {
 		hairColor: '',
 		height: '',
 		nacionality: '',
+		language: '',
 		name: '',
 		particularSigns: '',
 		password: '',
@@ -52,18 +53,21 @@ function ProfilE() {
 						<Col className="ProfileImages">
 							<Image className="facePic" src={face} width="300" height="300" />
 
-							<Image className="bodyPic" src={body} width="150" height="350" />
+							<Image className="bodyPic" src={body} width="300" height="450" />
 						</Col>
 
 						<p className="userProfI">
 							<h2>&nbsp;&nbsp;About You</h2>
-							<span className="highText">Age: </span> <span className="highText3"></span>{user.age}
-							<br />
+							<span className="highText">Age: </span> <span className="highText3">{user.age}
+							<br /></span>
 							<span className="highText">Birthday: </span>
-							<span className="highText3"></span>{user.birthday} <br />
+							<span className="highText3">{user.birthday} <br /></span>
 							<span className="highText">Nacionality: </span>
-							<span className="highText3"></span>{user.nacionality}
-							<br />
+							<span className="highText3">{user.nacionality}
+							<br /></span>
+							<span className="highText">Languages: </span>
+							<span className="highText3">{user.language}
+							<br /></span>
 							<span className="highText">Eye Color: </span> <span className="highText3">{user.eyeColor}</span>
 							<br />
 							<span className="highText">Hair Color: </span><span className="highText3">{user.hairColor}</span>
@@ -99,8 +103,10 @@ function ProfilE() {
 							<span className="highText">City of Recidence: </span> <span className="highText3">{user.countryofRecidence}</span>
 							<br />
 							<br />
+							<Button className="SubmBtn">Log Out</Button>
 							<br />
 						</p>
+						
 					</Container>
 				</Row>
 			</div>
