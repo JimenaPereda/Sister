@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Form, Button } from 'react-bootstrap';
+import { Form, Button, } from 'react-bootstrap';
 import {useHistory}  from 'react-router-dom';
 import Modal from 'react-modal';
 import './style.css';
@@ -16,7 +16,7 @@ function LogIn() {
 			<Button className="mainBtnIndex" onClick={() => setModalIsOpen(true)}>Log in</Button>
 
 			<div className="modalWrapper">
-				<Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}>
+				<Modal className="modalFrame" isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}>
 					<div className="Clooosebtn">
 					<Button className="closeBtn" onClick={() => setModalIsOpen(false)}>
 								X

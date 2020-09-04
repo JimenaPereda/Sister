@@ -3,13 +3,20 @@ h1.LogInTtitle {
     color: #EA85C7;
     font-family: 'Finger Paint', cursive;
   }
-  .ReactModal__Overlay.ReactModal__Overlay--after-open {
-    width: 600px;
-    height: 400px;
-  }
-  .ReactModal__Overlay.ReactModal__Overlay--after-open {
-    left: 300px;
-  }
+.ReactModal__Content.ReactModal__Content--after-open{
+    position: absolute;
+    top: 45px;
+    left: 320px;
+    right: 0;
+    bottom: 40px;
+    border: 12px solid pink;
+    background: rgb(255, 255, 255);
+    overflow: auto;
+}
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
+    background: none;
+    padding-left: 5%;
+}
   label.form-label {
     padding-left: 23%;
     color: #EA85C7;

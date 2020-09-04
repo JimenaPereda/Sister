@@ -9,6 +9,7 @@ import RideModal from "./../../Modals/Btn6/Emergency";
 import RingMeModal from "./../../Modals/Btn5/Emergency";
 import HotLineModal from "./../../Modals/Btn7/Emergency";
 import  DateModal from "./../../Modals/Btn8/Emergency";
+import  InfoModal from "./../../Modals/BtnInfo/BtnExp";
 
 
 import './style.css';
@@ -24,6 +25,9 @@ function HomeB(){
   const [ringMeIsOpen,setRingMeIsOpen] = useState(false)
   const [hotLineIsOpen,setHotLineIsOpen] = useState(false)
   const [dateIsOpen,setDateIsOpen] = useState(false)
+  const [infoIsOpen,setInfoIsOpen] = useState(false)
+
+ 
 
   const history = useHistory();
   console.log(history.location)
@@ -50,12 +54,9 @@ function HomeB(){
              <Button className="cancelBtn"> C A N C E L</Button>
          </div>
          <div className="HomeInfoCont">
-          <div className="textareaHome">
-             <p className="textHome">If you press this button we will be tracking<br />
-              and sharing your location. Alerting the authorities <br />
-              and women near to you.  <br />
-              A text message will be send to your emergency <br />contact.</p>
-          </div>
+          
+             <InfoModal />
+         
          </div>
 
          </div>

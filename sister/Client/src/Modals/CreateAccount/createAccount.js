@@ -11,7 +11,7 @@ function SignIn() {
 			<Button className="mainBtnIndex"onClick={() => setModalIsOpen(true)}>Sign in</Button>
 
 			<div className="modalWrapper">
-				<Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}>
+				<Modal className="modalFrame" isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}>
 				<div className="Clooosebtn">
 					<Button className="closeBtn" onClick={() => setModalIsOpen(false)}>
 								X

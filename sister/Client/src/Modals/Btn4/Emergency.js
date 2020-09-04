@@ -11,7 +11,7 @@ function NotWellModal() {
 			<Button className="NotWellBtn" onClick={() => setNotWellIsOpen(true)}></Button>
 
 			<div className="NotWellWrapper">
-				<Modal isOpen={notWellIsOpen} onRequestClose={() => setNotWellIsOpen(false)}>
+				<Modal className="modalFrame" isOpen={notWellIsOpen} onRequestClose={() => setNotWellIsOpen(false)}>
 					<div className="Clooosebtn">
 						<Button className="closeBtn" onClick={() => setNotWellIsOpen(false)}>
 							X
@@ -23,10 +23,9 @@ function NotWellModal() {
 
 					<div className="etextNotWellWrap">
 						<p className="NotWellEText">
-							We alert YOUR SISTERS, If a sister is nearby, she will go or reach you,
-							<br />
-							If you feel that this is a major emergency, press the SAVE ME button <br />
-							and an ambulance will be on the way
+							<h3 className="SubText">We just alert your SISTERS </h3>
+							If a sister is nearby, she will go or reach you, If you feel that this is a major emergency,
+							press the SAVE ME button and an ambulance will be on the way
 						</p>
 					</div>
 				</Modal>

@@ -29,5 +29,33 @@ router.post("/api/createprofile", (req, res) => {
 });
 
 
+router.get("/api/sister", (req, res) => {
+    console.log("Sister")
+    db.Sister.find({})
+    .then(dbSisters => {
+     
+
+      res.json(dbSisters);
+    })
+    .catch(err => {
+      res.status(400).json(err);
+    });
+});
+
+router.post("/api/createsister", (req, res) => {
+    console.log("Sister")
+    db.Sister.create(req.body)
+    .then(Sister => {
+     
+
+      res.json(Sister);
+    })
+    .catch(err => {
+      res.status(400).json(err);
+    });
+});
+
+
+
 
 module.exports = router;

@@ -16,13 +16,8 @@
     border: none;
 }
 
-  p.modalEText {
+  p.saveMeEText{
     text-align: center;
     font-size: 30px;
     font-family: 'Architects Daughter', cursive;
   }
-  .ReactModal__Content.ReactModal__Content--after-open {
-    width: 600px;
-    height: 366px;
-  }
-  

@@ -1,22 +1,10 @@
 
 .HomeInfoCont {
     width: 38px;
-    padding-left: 25%;
+    padding-left: 26%;
     margin-top: 40px;
 }
-.textareaHome{
-    border-color: #08104e;
-    width: 400px;
-    border-radius: 25px;
-    background-color: #f7d5eb;
-    padding-right: 23%;
-    border-style: dotted;
-    margin-top: 1px;
-    width: 616px;
-    height: 150px;
-    background-color: #f7d5eb;
-    padding-right: 23%;
-}
+ 
 
 
 p.textHome{
@@ -55,18 +43,18 @@ p.textHome{
 .colCancel{
     margin-bottom: -36px;
     margin-top: -13px;
-    padding-left: 25%;
+    padding-left: 26%;
 }
 .homeDivi{
     padding-left: 22%;
 }
 .emergencyBtnsRow1.row {
-    margin-left: 25%;
+    margin-left: 26%;
     display: -webkit-inline-box;
     margin-bottom: 0px;
 }
 .emergencyBtnsRow2.row {
-    margin-left: 25%;
+    margin-left: 26%;
     display: -webkit-inline-box;
     margin-bottom: 10px;
 }

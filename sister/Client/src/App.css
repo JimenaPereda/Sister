@@ -40,3 +40,8 @@ button.SubmBtn.btn.btn-primary {
 p{
     text-align: center;
 }
+h1.textInfoFontTitle {
+    font-size: 35px;
+    text-align: left;
+    font-family: 'Work Sans', sans-serif;
+}

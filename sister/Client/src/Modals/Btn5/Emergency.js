@@ -11,7 +11,7 @@ function RingMeModal() {
 			<Button className="RingMeBtn" onClick={() => setRingMeIsOpen(true)}></Button>
 
 			<div className="RingMeWrapper">
-				<Modal isOpen={ringMeIsOpen} onRequestClose={() => setRingMeIsOpen(false)}>
+				<Modal className="modalFrame" isOpen={ringMeIsOpen} onRequestClose={() => setRingMeIsOpen(false)}>
 					<div className="Clooosebtn">
 						<Button className="closeBtn" onClick={() => setRingMeIsOpen(false)}>
 							X
@@ -23,11 +23,11 @@ function RingMeModal() {
 
 					<div className="etextRingMeWrap">
 						<p className="RingMeEText">
-							We alert YOUR SISTERS, if a sister is near, she will go or contact you, <br />
-							if you are a victim of domestic violence or it is a major emergency, <br />
+							We alert YOUR SISTERS, if a sister is near, she will go or contact you, 
+							if you are a victim of domestic violence or it is a major emergency,
 							press the SAVE ME! Button.
-							<br />
-							WE ARE WITH YOU!
+							<h3 className="SubText">WE ARE WITH YOU! </h3>
+							
 						</p>
 					</div>
 

@@ -17,7 +17,7 @@ function Header() {
                 
        <div className="HeaderBk">
          <div className="homebod">
-            <img className="LogoLogo"src={Logo} alt="" width="240" height="145"/>
+            <img className="LogoLogo"src={Logo} alt="" width="270" height="160"/>
          </div>
        </div>
     

@@ -16,7 +16,11 @@
     width: 150px;
     border: none;
 }
-
+h3.SubText{
+  font-family: 'Work Sans', sans-serif;
+  color: #223f61;
+  text-align: center;
+}
   p.modalEText {
     text-align: center;
     font-size: 30px;

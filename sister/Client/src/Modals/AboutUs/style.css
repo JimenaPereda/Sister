@@ -1,24 +1,23 @@
 
   h1.AboutUsTtitle {
-    padding-left: 20%;
-    text-align: left;
+    font-family: 'Work Sans', sans-serif;
+    padding-left: 0%;
+    text-align: center;
     color: #EA85C7;
     font-family: 'Finger Paint', cursive;
   }
-  
-  
-  .jumbo.jumbotron {
-    padding-left: 30%;
-    height: auto;
-    width: 900px;
-   background-color:white ;
-  }
-  .AboutUsBackground{
-    background-image:url(./../../Components/Images/fondomod.jpg) ;
-    background-repeat: no-repeat;
-    background-position: bottom;
-  }
+  h3.weAreSis {
+    font-family: 'Work Sans', sans-serif;
+    color: #223f61;
+    text-align: center;
+}
  p.AboutUsText{
+   padding-left: 5%;
    text-align: left;
  }
+
+ img.AboutUsLogo {
+  margin-top: -46px;
+  padding-left: 37%;
+}
   

@@ -11,7 +11,7 @@ function SaveMeModal() {
 			<Button className="SaveMeBtn" onClick={() => setSaveMeIsOpen(true)}></Button>
 
 			<div className="saveMeWrapper">
-				<Modal isOpen={saveMeIsOpen} onRequestClose={() => setSaveMeIsOpen(false)}>
+				<Modal className="modalFrame" isOpen={saveMeIsOpen} onRequestClose={() => setSaveMeIsOpen(false)}>
 					<div className="Clooosebtn">
 						<Button className="closeBtn" onClick={() => setSaveMeIsOpen(false)}>
 							X
