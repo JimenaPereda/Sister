@@ -1,7 +1,6 @@
 import React, { Component, useEffect, useState } from 'react';
 import { Container, Col, Image, Row } from 'react-bootstrap';
 import './style.css';
-import chica4 from './../../Components/Images/chica4.jpg';
 import API from './../../Utils/API';
 
 function WomanA() {
@@ -28,23 +27,23 @@ function WomanA() {
             <Container className="containerRow">
 				<Row className="cRow">
 					<Col className="colPicSis">
-						<Image className="facePicSis" src={chica4} rounded />
+						<Image className="facePicSis" src={sister.facePic} rounded />
 					</Col>
 					<Col className="listInfo">
 						<div className="cardBK">
 							<p className="cardFont">
+							
+								<span className="highText">Name: </span><span className="highText2">{sister.name}</span>
 								<br />
-								Name:{sister.name}
-								<br />
-                Language:{sister.language}
+                               <span className="highText"> Language: </span><span className="highText2">{sister.language}</span>
                 <br />
-								Type of Emergency: {sister.typeOfEmergency}<br />
-								Minutes Ago:{sister.minutesAgo}
+								<span className="highText">Type of Emergency: </span><span className="highText2">{sister.typeOfEmergency}<br /></span>
+								<span className="highText">Minutes Ago: </span><span className="highText2">{sister.minutesAgo}</span>
 								<br />
-								Location close to:{sister.locationClose} <br />
-								Extact Location:{sister.extactLocation}
+								<span className="highText">Location close to: </span> <span className="highText2">{sister.locationClose}<br /></span>
+								<span className="highText">Extact Location: </span><span className="highText2">{sister.extactLocation}</span>
 								<br />
-								Contact Her:{sister.contactHer}
+								<span className="highText">Contact Her: </span><span className="highText2">{sister.contactHer}</span>
 								<br />
 							</p>
 						</div>

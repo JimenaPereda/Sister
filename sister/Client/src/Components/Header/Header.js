@@ -13,7 +13,7 @@ function Header() {
    return(
 
     <div>
-      {history.location.pathname!== "/"&&(
+     
                 
        <div className="HeaderBk">
          <div className="homebod">
@@ -21,7 +21,7 @@ function Header() {
          </div>
        </div>
     
-   )}
+  
      </div>
   
 

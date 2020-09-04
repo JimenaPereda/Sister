@@ -1,8 +1,8 @@
 import React, { Component, useEffect, useState } from 'react';
 import { Container, Col, Image, Row } from 'react-bootstrap';
 import './style.css';
-import body from './../../Components/Images/body.jpg';
-import face from './../../Components/Images/face.png';
+import body from './../../Components/Images/Body.png';
+import face from './../../Components/Images/jimmyFace.png';
 import API from './../../Utils/API';
 
 function ProfilE() {
@@ -52,42 +52,51 @@ function ProfilE() {
 						<Col className="ProfileImages">
 							<Image className="facePic" src={face} width="300" height="300" />
 
-							<Image className="bodyPic" src={body} width="240" height="350" />
+							<Image className="bodyPic" src={body} width="150" height="350" />
 						</Col>
 
 						<p className="userProfI">
 							<h2>&nbsp;&nbsp;About You</h2>
-							Age:      {user.age}<br />
-							Birthday:      {user.birthday} <br />
-							Nacionality:       {user.nacionality}<br />
-							
-							Eye Color:      {user.eyeColor}
+							<span className="highText">Age: </span> <span className="highText3"></span>{user.age}
 							<br />
-							Hair Color:      {user.hairColor}
+							<span className="highText">Birthday: </span>
+							<span className="highText3"></span>{user.birthday} <br />
+							<span className="highText">Nacionality: </span>
+							<span className="highText3"></span>{user.nacionality}
 							<br />
-							Height:      {user.height} <br />
-							Weight:       {user.weight}<br />
-							Skin Tone:      {user.skinTone}
+							<span className="highText">Eye Color: </span> <span className="highText3">{user.eyeColor}</span>
 							<br />
-							Particular signs:      {user.particularSigns}
+							<span className="highText">Hair Color: </span><span className="highText3">{user.hairColor}</span>
+							<br />
+							<span className="highText">Height: </span><span className="highText3">{user.height} <br /></span>
+							<span className="highText">Weight: </span> <span className="highText3">{user.weight}</span>
+							<br />
+							<span className="highText">Skin Tone: </span><span className="highText3">{user.skinTone}</span>
+							<br />
+							<span className="highText">Particular signs: </span> <span className="highText3">{user.particularSigns}</span>
 							<br />
 							<h2>&nbsp;&nbsp;Adress:</h2>
-							Number:      {user.streetNumber}
+							<span className="highText">Number: </span> <span className="highText3">{user.streetNumber}</span>
 							<br />
-							Street:      {user.street}
+							<span className="highText">Street: </span> <span className="highText3">{user.street}</span>
 							<br />
-							City:      {user.city} <br />
-							State:      {user.state} <br />
-							Zip Code:      {user.zipCode}
+							<span className="highText">City: </span> <span className="highText3">{user.city} <br /></span>
+							<span className="highText">State: </span> <span className="highText3">{user.state} <br /></span>
+							<span className="highText">Zip Code: </span> <span className="highText3">{user.zipCode}</span>
 							<br />
-							Country:      {user.countryofRecidence}
+							<span className="highText">Country: </span>
+							<span className="highText3">{user.countryofRecidence}</span>
 							<br />
 							<h2>&nbsp;&nbsp;Emergency Contact:</h2>
-							Name:      {user.ecName} <br />
-							Phone Number:      {user.ecPhone}
+							<span className="highText">Name: </span>
+							<span className="highText3">{user.ecName} <br /></span>
+							<span className="highText">Phone Number: </span>
+							<span className="highText3">{user.ecPhone}</span>
 							<br />
-							Email:       {user.ecMail}<br />
-							City of Recidence:      {user.countryofRecidence}
+							<span className="highText">Email: </span>
+							<span className="highText3">{user.ecMail}</span>
+							<br />
+							<span className="highText">City of Recidence: </span> <span className="highText3">{user.countryofRecidence}</span>
 							<br />
 							<br />
 							<br />

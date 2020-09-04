@@ -6,7 +6,7 @@
     border-style: dotted;
     border-color: #08104e;
     border-radius: 25px;
-    width: 600px;
+    width: 800px;
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 50px;
@@ -16,7 +16,7 @@
 }
 .containerRow{
     margin-bottom: -41px;
-    padding-left: 25%;
+    padding-left: 16%;
     display: inline-flex;
     
 }
@@ -50,11 +50,23 @@
 .cardBK {
     font-weight: bold;
     background: white;
-    WIDTH: 360PX;
+    WIDTH: 550PX;
     OPACITY: 0.9;
     HEIGHT: 150PX;
     margin-top: 35px;
 }
 .colPicSis{
     padding-left: 2%;
+}
+.highText{
+    font-family: 'Finger Paint', cursive;
+    color:#08104e;
+    font-size: 16px;
+    font-weight: 700;
+}
+.highText2{
+    font-family: 'Finger Paint', cursive;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
 }
