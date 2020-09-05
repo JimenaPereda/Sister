@@ -6,9 +6,27 @@ import './style.css';
 
 function TextSubModal() {
 	const [textSubIsOpen, setTextSubIsOpen] = useState(false);
+	const [text,setText] = useState("");
+	const emptyText = ()=>{
+		setText("")
+	}
+	const handleChange = (e)=>{
+	  e.preventDefault()
+	  setText(e.target.value)
+	}
+	 const  function1 = () => setTextSubIsOpen(true);
+	const	function2 = () => emptyText();
+	const todos = ()=>{
+		function1()
+		function2()
+	}
 	return (
+		
 		<div className="TextSub">
-			<Button className="TextSubBtn" type="submit" onClick={() => setTextSubIsOpen(true)}>
+				<Form.Group className="formC">
+					<Form.Control as="textarea" value={text} onChange={(e)=>handleChange(e)} placeholder="Please enter your informatioh here... " />
+				</Form.Group>
+			<Button className="TextSubBtn" type="submit" onClick={todos} >
 				Submit
 			</Button>
 

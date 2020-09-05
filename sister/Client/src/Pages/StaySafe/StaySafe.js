@@ -4,7 +4,7 @@ import TextSubModal from './../../Modals/StaySafe/textSubmit';
 import './style.css';
 
 function StaySafeW() {
-	const [textSubIsOpen, setTextSubIsOpen] = useState(false);
+
 	return (
 		<div>
 			<div className="textareaStay">
@@ -29,12 +29,10 @@ function StaySafeW() {
 			</div>
 			,
 			<div className="Col">
-				<Form.Group className="formC">
-					<Form.Control as="textarea" placeholder="Please enter your informatioh here... " />
-				</Form.Group>
+			
 			</div>
 			<div className="colSub">
-				<TextSubModal />
+			<TextSubModal />
 			</div>
 			<div className="colH">
 				<h1>We are with you!</h1>
