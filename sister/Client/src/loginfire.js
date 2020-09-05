@@ -4,6 +4,8 @@ import *as firebase from 'firebase/app';
 import 'firebase/auth';
 import firebaseConfig from './firebase';
 
+/* hola */
+
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 class Login extends Component{
     render(){
