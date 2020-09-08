@@ -31,6 +31,8 @@
   .ReactModal__Content.ReactModal__Content--after-open {
     width: 600px;
     height: 366px;
+    border: 10px solid;
+    border-color: pink;
   }
 
   .InfoRow{
@@ -89,10 +91,7 @@ input.emergenvyContInfo.form-control {
 .youAre {
   padding-left: 12%;
 }
-img.footerImgI {
-  background-repeat: no-repeat;
-  width: 1024px;
-}
+
 .containerStay{
   width: 498px;
 }

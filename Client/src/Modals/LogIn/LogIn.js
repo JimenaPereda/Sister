@@ -29,19 +29,15 @@ function LogIn() {
 					</div>
 					<h1 className="LogInTtitle">log in</h1>
 					<Form onSubmit={(event) => event.preventDefault()}>
-						<Form.Group controlId="formBasicEmail">
-							<Form.Label>Email address</Form.Label>
-							<Form.Control type="email" placeholder="Enter email" />
-							<Form.Text className="text-muted">
-								<br />
-								&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
-								&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;We'll never share your email with anyone else.
-							</Form.Text>
+						<Form.Group controlId="formBasicEmail" >
+							<Form.Label className="formLog1">Email address</Form.Label>
+							<Form.Control className="formLogEmail"  placeholder="Enter email" />
+						
 						</Form.Group>
 
-						<Form.Group controlId="formBasicPassword">
-							<Form.Label>Password</Form.Label>
-							<Form.Control type="password" placeholder="Password" />
+						<Form.Group controlId="formBasicPassword" >
+							<Form.Label className="formLog1">Password</Form.Label>
+							<Form.Control className="formLog"  placeholder="Password" />
 						</Form.Group>
 
 						<Login/>

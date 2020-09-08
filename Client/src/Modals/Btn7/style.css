@@ -25,5 +25,7 @@
   .ReactModal__Content.ReactModal__Content--after-open {
     width: 600px;
     height: 366px;
+    border: 10px solid;
+    border-color: pink;
   }
  

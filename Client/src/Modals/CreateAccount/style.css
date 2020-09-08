@@ -1,77 +1,39 @@
 h1.SignInTtitle {
+  background: white;
     text-align: center;
     color: #EA85C7;
     font-family: 'Finger Paint', cursive;
   }
- 
+  .accountBKG {
+    background-image: url(./../../Components/Images/bkg2.png);
+    background-position:right;
+    background-repeat: no-repeat;
+    width: 422px;
+    margin-left: 14%;
+    margin-bottom: 40px;
+}
   label.form-label {
-    padding-left: 23%;
+    background: white;
+    display: table;
+    padding-left: 10%;
     color: #EA85C7;
     font-size: 22px;
   }
-  input#formBasicEmail {
-    margin-left: 20px;
-  }
-  small.text-muted.form-text {
-    color: navy;
-  }
-  input#formBasicPassword {
-    margin-left: 62px;
-  }
-  button.submitBtn.btn.btn-primary {
-    color: navy;
-    font-size: 23px;
-    border-radius: 25px;
-    border-style: dotted;
-    border-color: navy;
-    font-family: 'Finger Paint', cursive;
-    background-color: #EA85C7;
-    margin-top: 30px;
-    margin-right: 20px;
-    margin-left: 127px;
-  }
-  input#formBasicAge {
-    margin-left: 113px;
-  }
-  input#formBasicNacionality {
-    margin-left: 44px;
-  }
-  input#formBasicLanguage {
-    margin-left: 57px;
-  }
-  input#formBasicEyeColor {
-    margin-left: 59px;
-  }
-  input#formBasicHairColor {
-    margin-left: 53px;
-  }
-  input#formBasicHeight {
-    margin-left: 84px;
-  }
-  input#formBasicWeight {
-    margin-left: 81px;
-  }
-  input#formBasicSkinTone {
-    margin-left: 56px;
-  }
-  input#formGridAddress1 {
-    margin-left: 70px;
-  }
-  input#formGridAddress2 {
-    margin-left: 52px;
-  }
-  input#formGridCity {
-    margin-left: 107px;
-  }
-  input#formGridState {
-    margin-left: 95px;
-  }
-  input#formGridZip {
-    margin-left: 112px;
-  }
-  input.emergenvyContInfo.form-control {
-    margin-left: 279px;
-  }
+  input#formBasic {
+    
+    margin-left: 10%;
+}
+input#formGridAddress {
+  margin-left: 10%;
+}
   .modBtns {
     padding-left: 10%;
   }
+  input.emergenvyContInfo.form-control {
+    margin-left: 12%;
+    width: 300px;
+}
+small.text-muted.form-text {
+  color: navy;
+  background: white;
+}

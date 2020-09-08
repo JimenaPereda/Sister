@@ -14,8 +14,8 @@ class Login extends Component{
             <div>
                 {
                     user ?
-                    <p>Hello, {user.displayName}</p>
-                    :<p>Please sign in</p>
+                    <p className="googText">Hello, {user.displayName}</p>
+                    :<p className="googText">Please sign in</p>
                 }
                 {
                     user ?<div className="googleCol"> <button className="googleBtn" onClick={signOut}>Sign out</button> </div>

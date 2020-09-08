@@ -1,3 +1,10 @@
 .footerImg{
     margin-top: 40px;
+ width: 100px;
+ height: 100px;
+    
   }
+
+.footerImgI{
+  size: 100%;
+}

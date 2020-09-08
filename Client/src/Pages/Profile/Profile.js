@@ -3,9 +3,15 @@ import { Container, Col, Image, Row, Button } from 'react-bootstrap';
 import './style.css';
 import body from './../../Components/Images/Body.png';
 import face from './../../Components/Images/jimmyFace.png';
+import { useHistory } from 'react-router-dom';
 import API from './../../Utils/API';
 
 function ProfilE() {
+	const history = useHistory();
+	const reDirect = () => {
+		history.push({ pathname: '/' });
+	};
+
 	const [user, setUser] = useState({
 		age: '',
 		birthday: '',
@@ -103,7 +109,7 @@ function ProfilE() {
 							<span className="highText">City of Recidence: </span> <span className="highText3">{user.countryofRecidence}</span>
 							<br />
 							<br />
-							<Button className="SubmBtn">Log Out</Button>
+							<Button className="SubmBtn" variant="primary" onClick={() => reDirect()}>Log Out</Button>
 							<br />
 						</p>
 						

@@ -24,7 +24,7 @@ button.SubmBtn.btn.btn-primary {
     font-size: 18px;
     font-family: 'Finger Paint', cursive;
     background-color: #ea85c7;
-    margin-top: 65px;
+    margin-top: 20px;
     margin-left: 60%;
     margin-right: 20px;
     width: 93px;
@@ -44,4 +44,20 @@ h1.textInfoFontTitle {
     font-size: 35px;
     text-align: left;
     font-family: 'Work Sans', sans-serif;
+}
+.googleCol{
+    padding-left: 35%;
+}
+.googText{
+    color: #EA85C7;
+    font-size: 22px;
+}
+.googleBtn{
+    border-style: unset;
+    border-radius: 70px;
+    color: #1c3a5e;
+    font-size: 18px;
+    font-family: 'Finger Paint', cursive;
+    background-color: #ea85c7;
+    width: 200px;
 }
