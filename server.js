@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(express.static("public"));
 mongoose.Promise = Promise;
 mongoose
-  .connect("mongodb://localhost/sister")
+  .connect(process.env.MONGODB_URI || "mongodb://localhost/sister")
   .then(() => {
     console.log('Connected to Mongo!')
   }).catch(err => {
