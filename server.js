@@ -30,6 +30,15 @@ mongoose
      // routes
 app.use(require("./routes/api.js"));
 
+//Serve static assets in production
+if (process.env.NODE_ENV === 'production') {
+  // Set static folder
+  app.use(express.static('Client/build'));
+  app.get('/*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'Client', 'build', 'index.html'));
+  });
+}
+
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
 });
