@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './Components/Header/Header';
 import NavBar from './Components/Nav/Navbar';
 import MainPage from './Pages/Main/IndexPage';
@@ -21,11 +21,13 @@ function App() {
 						<Route exact path={['/Home', '/StaySafe', '/WomanAround', '/Profile']} component={Header} />
 						<Route exact path={['/Home', '/StaySafe', '/WomanAround', '/Profile']} component={NavBar} />
 					</div>
-					<Route exact path="/" component={MainPage} />
-					<Route exact path="/Home" component={HomeB} />
-					<Route exact path="/StaySafe" component={StaySafeW} />
-					<Route exact path="/WomanAround" component={WomanA} />
-					<Route exact path="/Profile" component={ProfilE} />
+					  <Switch>
+					   <Route exact path="/" component={MainPage} />
+					   <Route exact path="/Home" component={HomeB} />
+					   <Route exact path="/StaySafe" component={StaySafeW} />
+					   <Route exact path="/WomanAround" component={WomanA} />
+					   <Route exact path="/Profile" component={ProfilE} />
+					  </Switch>
 
 					<div>
 						<Route exact path={['/Home', '/StaySafe', '/WomanAround', '/Profile']} component={Footer} />
