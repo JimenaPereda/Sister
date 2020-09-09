@@ -17,10 +17,7 @@ function App() {
 	
 			<Router>
 				<div>
-					<div className="HeaderBackgrouund">
-						<Route exact path={['/Home', '/StaySafe', '/WomanAround', '/Profile']} component={Header} />
-						<Route exact path={['/Home', '/StaySafe', '/WomanAround', '/Profile']} component={NavBar} />
-					</div>
+					
 					  <Switch>
 					   <Route exact path="/" component={MainPage} />
 					   <Route exact path="/Home" component={HomeB} />
@@ -29,9 +26,7 @@ function App() {
 					   <Route exact path="/Profile" component={ProfilE} />
 					  </Switch>
 
-					<div>
-						<Route exact path={['/Home', '/StaySafe', '/WomanAround', '/Profile']} component={Footer} />
-					</div>
+					
 				</div>
 			</Router>
 		

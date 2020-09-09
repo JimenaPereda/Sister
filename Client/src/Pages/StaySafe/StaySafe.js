@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import { Button, Form, InputGroup, Prepend } from 'react-bootstrap';
+import Header from './../../Components/Header/Header';
+import NavBar from './../../Components/Nav/Navbar';
+import Footer from './../../Components/Foot/Footer';
 import TextSubModal from './../../Modals/StaySafe/textSubmit';
 import './style.css';
 
@@ -7,6 +10,10 @@ function StaySafeW() {
 
 	return (
 		<div>
+			<div className="HeaderBackgrouund">
+						<Header/>
+						<NavBar/>
+					</div>
 			<div className="textareaStay">
 				<div className="containerStay">
 					<p className="pStay">
@@ -37,6 +44,9 @@ function StaySafeW() {
 			<div className="colH">
 				<h1>We are with you!</h1>
 			</div>
+			<div>
+						<Footer />
+					</div>
 		</div>
 	);
 }

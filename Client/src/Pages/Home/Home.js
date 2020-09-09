@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { Button, Col, Row} from 'react-bootstrap';
 import {useHistory}  from 'react-router-dom';
+import Header from './../../Components/Header/Header';
+import NavBar from './../../Components/Nav/Navbar';
+import Footer from './../../Components/Foot/Footer';
 import SaveMeModal from "./../../Modals/Btn1/Emergency";
 import FollowModal from "./../../Modals/Btn2/Emergency";
 import DiscriminatedModal from "./../../Modals/Btn3/Emergency";
@@ -34,6 +37,10 @@ function HomeB(){
     return(
 
          <div>
+           <div className="HeaderBackgrouund">
+						<Header/>
+						<NavBar/>
+					</div>
            <h1 className="youAre">YOU ARE SAFE WITH US! </h1>
          
          <div className="emergencyBtnsGroup">
@@ -58,7 +65,9 @@ function HomeB(){
              <InfoModal />
          
          </div>
-
+         <div>
+						<Footer />
+					</div>
          </div>
 
 

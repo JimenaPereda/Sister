@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Col, Image, Row } from 'react-bootstrap';
+import Header from './../../Components/Header/Header';
+import NavBar from './../../Components/Nav/Navbar';
+import Footer from './../../Components/Foot/Footer';
 import './style.css';
 import API from './../../Utils/API';
 
@@ -20,6 +23,10 @@ function WomanA() {
 	console.log(sisters);
 	return (
     <>
+	<div className="HeaderBackgrouund">
+						<Header/>
+						<NavBar/>
+					</div>
     {sisters.length?(
       <div >
         {sisters.map(sister=>{
@@ -59,7 +66,9 @@ function WomanA() {
     ):(
       <p>Hola</p>
     )}
-
+     <div>
+<Footer />
+</div>
     </>
 	);
 }
