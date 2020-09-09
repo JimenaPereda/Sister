@@ -29,7 +29,7 @@ function WomanA() {
 					</div>
     {sisters.length?(
       <div >
-        {sisters.map(sister=>{
+        {sisters && sisters.map(sister=>{
           return (
             <Container className="containerRow">
 				<Row className="cRow">
