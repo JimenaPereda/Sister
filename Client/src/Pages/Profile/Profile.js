@@ -4,9 +4,6 @@ import './style.css';
 import body from './../../Components/Images/Body.png';
 import face from './../../Components/Images/jimmyFace.png';
 import { useHistory } from 'react-router-dom';
-import Header from './../../Components/Header/Header';
-import NavBar from './../../Components/Nav/Navbar';
-import Footer from './../../Components/Foot/Footer';
 import API from './../../Utils/API';
 
 function ProfilE() {
@@ -55,10 +52,7 @@ function ProfilE() {
 	console.log(user);
 	return (
 		<div>
-			<div className="HeaderBackgrouund">
-				<Header />
-				<NavBar />
-			</div>
+			
 			<h1 className="ProfileName">{user.name}</h1>
 			<div className="ProfDiv">
 				<Row className="ProfileRow">
@@ -151,9 +145,7 @@ function ProfilE() {
 					</Container>
 				</Row>
 			</div>
-			<div>
-				<Footer />
-			</div>
+			
 		</div>
 	);
 }
