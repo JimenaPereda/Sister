@@ -14,8 +14,14 @@ app.use(express.json());
 
 app.use(express.static("public"));
 mongoose
-  .connect(process.env.MONGODB_URI || "mongodb://localhost/sister")
-  .then(() => {
+  .connect(process.env.MONGODB_URI || "mongodb://localhost/sister",
+  {
+    useNewUrlParser: true,
+    useFindAndModify: false,
+    useUnifiedTopology: true
+  })
+  .then((res) => {
+    console.log('MODELS', res.models)
     console.log('Connected to Mongo!')
   }).catch(err => {
     console.error('Error connecting to mongo', err)
