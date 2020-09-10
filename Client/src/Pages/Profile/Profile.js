@@ -5,6 +5,7 @@ import body from './../../Components/Images/Body.png';
 import face from './../../Components/Images/jimmyFace.png';
 import { useHistory } from 'react-router-dom';
 import API from './../../Utils/API';
+import moment from 'moment';
 
 function ProfilE() {
 	const history = useHistory();
@@ -50,6 +51,7 @@ function ProfilE() {
 			.catch((err) => console.log(err));
 	}
 	console.log(user);
+	const userBirthday = `${moment(user.birthday).format('MMMM')} ${moment(user.birthday).format('DD')} ${moment(user.birthday).format('YYYY')}`
 	return (
 		<div>
 			
@@ -72,7 +74,7 @@ function ProfilE() {
 							</span>
 							<span className="highText">Birthday: </span>
 							<span className="highText3">
-								{user.birthday} <br />
+								{userBirthday} <br />
 							</span>
 							<span className="highText">Nacionality: </span>
 							<span className="highText3">
