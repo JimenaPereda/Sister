@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Form, Button } from 'react-bootstrap';
 import { useHistory } from 'react-router-dom';
-import Login from './../../loginfire';
+import Login from '../../Components/LogInFirebase/loginfire';
 import Modal from 'react-modal';
 import './style.css';
 
