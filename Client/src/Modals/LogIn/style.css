@@ -41,7 +41,7 @@ h1.LogInTtitle {
     
 }
 
-.ReactModal__Overlay.ReactModal__Overlay--after-open .googleBtn {
+.ReactModal__Overlay.ReactModal__Overlay--after-open button.googleBtn {
   border-style: unset;
   border-radius: 70px;
   color: #1c3a5e;
@@ -63,6 +63,15 @@ label.formLog1.form-label {
     display: revert;
 }
 
+button.googleBtn {
+  border-style: unset;
+  border-radius: 70px;
+  color: #1c3a5e;
+  font-size: 18px;
+  font-family: 'Finger Paint', cursive;
+  background-color: #ea85c7;
+  width: 200px;
+}
 /* @media only screen and (max-width: 1024px ){
     .ReactModal__Content.ReactModal__Content--after-open{
       position: absolute;
