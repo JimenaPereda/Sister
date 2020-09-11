@@ -11,7 +11,7 @@ function ProfilE() {
 	const history = useHistory();
 	const reDirect = () => {
 		console.log("HOLA")
-		return <Redirect to="/"/>
+		return <Redirect to="/Home"/>
 		
 	};
 
@@ -141,7 +141,7 @@ function ProfilE() {
 							<span className="highText3">{user.countryofRecidence}</span>
 							<br />
 							<br />
-							<Button className="SubmBtn" variant="primary" onClick={reDirect}>
+							<Button className="SubmBtn" variant="primary" onClick={() => reDirect}>
 								Log Out
 							</Button>
 							<br />

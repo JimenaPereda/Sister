@@ -32,67 +32,38 @@ h1.LogInTtitle {
     margin-left: 62px;
   }
 
-  .ReactModal__Overlay.ReactModal__Overlay--after-open {
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
     position: fixed;
     top: -10px;
     left: 25%;
     right: 0px;
     bottom: 0;
     
-  }
-  .googleCol{
-    padding-left: 35%;
-  }
-  .googText{
-    color: #EA85C7;
-    font-size: 22px;
-  }
-  button.googleBtn{
-    border-style: unset;
-    border-radius: 70px;
-    color: #1c3a5e;
-    font-size: 18px;
-    font-family: 'Finger Paint', cursive;
-    background-color: #ea85c7;
-    width: 200px;
-  }
-  label.formLog1.form-label {
+}
+
+.ReactModal__Overlay.ReactModal__Overlay--after-open .googleBtn {
+  border-style: unset;
+  border-radius: 70px;
+  color: #1c3a5e;
+  font-size: 18px;
+  font-family: 'Finger Paint', cursive;
+  background-color: #ea85c7;
+  width: 200px;
+}
+.ReactModal__Overlay.ReactModal__Overlay--after-open .googleCol {
+  padding-left: 35%;
+}
+.ReactModal__Overlay.ReactModal__Overlay--after-open .googText {
+  color: #EA85C7;
+  font-size: 22px;
+}
+  
+label.formLog1.form-label {
     padding-left: 14%;
     display: revert;
 }
 
-button.googText{
-  color: #EA85C7;
-  font-size: 22px;
-}
-button.googleBtn{
-  border-style: unset;
-  border-radius: 70px;
-  color: #1c3a5e;
-  font-size: 18px;
-  font-family: 'Finger Paint', cursive;
-  background-color: #ea85c7;
-  width: 200px;
-}
-.googleCol{
-  padding-left: 35%;
-}
-.googText{
-  color: #EA85C7;
-  font-size: 22px;
-}
-.googleBtn{
-  border-style: unset;
-  border-radius: 70px;
-  color: #1c3a5e;
-  font-size: 18px;
-  font-family: 'Finger Paint', cursive;
-  background-color: #ea85c7;
-  width: 200px;
-}  
-
-
-  @media only screen and (max-width: 1024px ){
+/* @media only screen and (max-width: 1024px ){
     .ReactModal__Content.ReactModal__Content--after-open{
       position: absolute;
       top: 45px;
@@ -109,12 +80,12 @@ button.googleBtn{
   }
   label.form-label {
     padding-left: 10%;
-}
   }
+} */
 
 
-  @media only screen and (max-width: 360px ){
+  /* @media only screen and (max-width: 360px ){
 
   
-  }
+  } */
 
