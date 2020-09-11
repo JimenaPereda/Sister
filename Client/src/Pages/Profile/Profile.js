@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react';
-import { Container, Col, Image, Row, Button } from 'react-bootstrap';
+import React, { useEffect, useState} from 'react';
+import { Container, Col, Image, Row, Button} from 'react-bootstrap';
 import './style.css';
 import body from './../../Components/Images/Body.png';
 import face from './../../Components/Images/jimmyFace.png';
-import { useHistory, Redirect } from 'react-router-dom';
+import { useHistory, Redirect, Link } from 'react-router-dom';
 import API from './../../Utils/API';
 import moment from 'moment';
 
@@ -11,7 +11,7 @@ function ProfilE() {
 	const history = useHistory();
 	const reDirect = () => {
 		console.log("HOLA")
-		return <Redirect to="/Home"/>
+		return <Redirect to="/"/>
 		
 	};
 
@@ -141,9 +141,11 @@ function ProfilE() {
 							<span className="highText3">{user.countryofRecidence}</span>
 							<br />
 							<br />
-							<Button className="SubmBtn" variant="primary" onClick={() => history.push({ pathname: '/'})}>
+							<Link to="/">
+							<Button className="SubmBtn" variant="primary" href='/' onClick={() => history.push({ pathname: '/'})}>
 								Log Out
 							</Button>
+							</Link>
 							<br />
 						</p>
 					</Container>
