@@ -10,6 +10,7 @@ import moment from 'moment';
 function ProfilE() {
 	const history = useHistory();
 	const reDirect = () => {
+		console.log("HOLA")
 		history.push({ pathname: '/' });
 	};
 
