@@ -1,5 +1,6 @@
 import React, { Component} from 'react';
 import withFirebaseAuth from 'react-with-firebase-auth';
+import { Button} from 'react-bootstrap';
 import *as firebase from 'firebase/app';
 import 'firebase/auth';
 import firebaseConfig from '../../firebase';
@@ -19,8 +20,8 @@ class Login extends Component{
                     :<p className="googText">Please sign in</p>
                 }
                 {
-                    user ?<div className="googleCol"> <button className="googleBtn" onClick={signOut}>Sign out</button> </div>
-                    :<div className="googleCol"><button className="googleBtn" onClick={signInWithGoogle}>Sign in with Google</button> </div>
+                    user ?<div className="googleCol"> <Button className="googleBtn" onClick={signOut}>Sign out</Button> </div>
+                    :<div className="googleCol"><Button className="googleBtn" onClick={signInWithGoogle}>Sign in with Google</Button> </div>
                 }
             </div>
         );
