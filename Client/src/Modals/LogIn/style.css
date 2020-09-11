@@ -31,6 +31,24 @@ h1.LogInTtitle {
   input#formBasicPassword {
     margin-left: 62px;
   }
+
+  
+.googleCol{
+  padding-left: 35%;
+}
+.googText{
+  color: #EA85C7;
+  font-size: 22px;
+}
+.googleBtn{
+  border-style: unset;
+  border-radius: 70px;
+  color: #1c3a5e;
+  font-size: 18px;
+  font-family: 'Finger Paint', cursive;
+  background-color: #ea85c7;
+  width: 200px;
+}
   
   
   .ReactModal__Overlay.ReactModal__Overlay--after-open {
