@@ -20,8 +20,8 @@ class Login extends Component{
                     :<p className="googText">Please sign in</p>
                 }
                 {
-                    user ?<div className="googleCol"> <Button className="googleBtn" onClick={signOut}>Sign out</Button> </div>
-                    :<div className="googleCol"><Button className="googleBtn" onClick={signInWithGoogle}>Sign in with Google</Button> </div>
+                    user ?<div className="googleCol"> <button className="googleBtn" onClick={signOut}>Sign out</button> </div>
+                    :<div className="googleCol"><button className="googleBtn" onClick={signInWithGoogle}>Sign in with Google</button> </div>
                 }
             </div>
         );

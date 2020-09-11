@@ -141,7 +141,7 @@ function ProfilE() {
 							<span className="highText3">{user.countryofRecidence}</span>
 							<br />
 							<br />
-							<Button className="SubmBtn" variant="primary" onClick={() => history.push({ pathname: '/Home'})}>
+							<Button className="SubmBtn" variant="primary" onClick={() => history.push({ pathname: '/'})}>
 								Log Out
 							</Button>
 							<br />
