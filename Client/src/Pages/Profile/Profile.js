@@ -142,7 +142,7 @@ function ProfilE() {
 							<br />
 							<br />
 							<Link to="/">
-							<Button className="SubmBtn" variant="primary" href='/' onClick={() => history.push({ pathname: '/'})}>
+							<Button className="SubmBtn" variant="primary" href={'/'} onClick={() => history.push({ pathname: '/'})}>
 								Log Out
 							</Button>
 							</Link>
