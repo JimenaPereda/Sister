@@ -1,6 +1,5 @@
 import React, { Component} from 'react';
 import withFirebaseAuth from 'react-with-firebase-auth';
-import { Button} from 'react-bootstrap';
 import *as firebase from 'firebase/app';
 import 'firebase/auth';
 import firebaseConfig from '../../firebase';
