@@ -1,14 +1,19 @@
-import React, { useEffect, useState} from 'react';
-import { Container, Col, Image, Row, Button} from 'react-bootstrap';
+import React, { useEffect, useState } from 'react';
+import { Container, Col, Image, Row, Button } from 'react-bootstrap';
 import './style.css';
 import body from './../../Components/Images/Body.png';
 import face from './../../Components/Images/jimmyFace.png';
-import { } from 'react-router-dom';
+import { useHistory, Redirect } from 'react-router-dom';
 import API from './../../Utils/API';
 import moment from 'moment';
 
 function ProfilE() {
-	
+	const history = useHistory();
+	const reDirect = () => {
+		console.log("HOLA")
+		return <Redirect to="/"/>
+		
+	};
 
 	const [user, setUser] = useState({
 		age: '',
@@ -136,8 +141,9 @@ function ProfilE() {
 							<span className="highText3">{user.countryofRecidence}</span>
 							<br />
 							<br />
-							
-							<Button href="https://wearesisters.herokuapp.com/">Link</Button> 
+							<Button className="SubmBtn" onClick={() => history.push({ pathname: '/'})}>
+								Log Out
+							</Button>
 							<br />
 						</p>
 					</Container>
