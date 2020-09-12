@@ -3,17 +3,12 @@ import { Container, Col, Image, Row, Button} from 'react-bootstrap';
 import './style.css';
 import body from './../../Components/Images/Body.png';
 import face from './../../Components/Images/jimmyFace.png';
-import { useHistory, Redirect, Link } from 'react-router-dom';
+import { } from 'react-router-dom';
 import API from './../../Utils/API';
 import moment from 'moment';
 
 function ProfilE() {
-	const history = useHistory();
-	const reDirect = () => {
-		console.log("HOLA")
-		return <Redirect to="/"/>
-		
-	};
+	
 
 	const [user, setUser] = useState({
 		age: '',
